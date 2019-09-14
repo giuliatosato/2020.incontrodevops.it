@@ -1,0 +1,83 @@
+<div class="intro intro--no-height">
+  <h1 class="intro__title">
+    {{ workshop.title }}
+  </h1>
+
+  <h1 class="row__title">
+    <a href="{{ workshop.ticket }}" target="_blank" class="button button--register">Register</a>
+  </h1>
+
+</div>
+<h1 class="row__title">
+  {{ workshop.when }}
+</h1>
+
+<h3 class="row__title">
+  {{ workshop.where }} - <a href="{{ workshop.map }}" class="link" target="_blank">how to reach us</a>
+</h3>
+
+<h3 class="row__title">
+  un workshop realizzato in collaborazione con
+  <a class="link" href="{{workshop.partner.link}}?utm_source={{ site.data.conference.utm_source }}">{{workshop.partner.name}}</a>
+</h3>
+
+<hr class="hr">
+
+<div class="row row--2">
+  <div class="row__column markdown">
+    {{ workshop.intro | markdownify }}
+  </div>
+  <div class="row__column">
+    {% for teacher in workshop.teacher %}
+    <a href="{{ workshop.teacher.link }}" class="teacher">
+      {% if teacher.picture %}
+      <div class="teacher__avatar">
+        <img src="/img/teachers/{{ teacher.picture }}" class="teacher__picture">
+      </div>
+      {% endif %}
+      <div class="teacher__contents">
+        <div class="teacher__name">
+          {{ teacher.name }}
+        </div>
+        <div class="teacher__bio">
+          {{ teacher.bio }}
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+
+<hr class="hr">
+
+<h2 class="row__title">Programma</h2>
+
+<div class="row row--1">
+  <div class="row__column markdown">
+    {{ workshop.program | markdownify }}
+  </div>
+
+
+  <div class="row__column">
+    <a href="{{ workshop.ticket }}" target="_blank" class="button button--register">Register</a>
+  </div>
+</div>
+
+
+<hr class="hr">
+
+<div class="row row--2">
+  <div class="row__column">
+    <h3 class="column__title">A chi è rivolto</h3>
+    {{ workshop.addressed_info | markdownify }}
+  </div>
+  <div class="row__column">
+    <h3 class="column__title">Informazioni utili</h3>
+    {{ workshop.useful_info | markdownify }}
+  </div>
+
+  <p class="row__column">
+    <a href="{{ workshop.ticket }}" target="_blank" class="button button--register">Register</a>
+  </p>
+
+</div>

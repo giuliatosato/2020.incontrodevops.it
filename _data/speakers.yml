@@ -1,0 +1,12 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+call_for_paper_url: "mailto:info@incontrodevops.it"
+call_for_paper: true
+# list:
+#   -
+#     id: niels-devos
+#     description:
+#     image: niels-devos.jpg
+#     first_name: Niels
+#     last_name: de Vos
+#     twitter: nixpanic

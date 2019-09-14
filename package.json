@@ -1,0 +1,35 @@
+{
+  "name": "cssday",
+  "version": "0.0.1",
+  "description": "Conference site",
+  "main": "index.js",
+  "devDependencies": {
+    "dustman": "^1.11.55",
+    "frontsize": "git+https://github.com/ideatosrl/frontsize.git#372f2a6",
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/gulp -S --config dustman-incontrodeops.yml",
+    "dev": "./node_modules/.bin/gulp -S --config dustman-incontrodeops.yml watch & jekyll serve",
+    "setup": "cp ./node_modules/dustman/gulpfile.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrUSP/2019.incontrodevops.it.git"
+  },
+  "author": "Vittorio <me@vittoriovittori.com> (http://vit.to/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GrUSP/2019.incontrodevops.it/issues"
+  },
+  "homepage": "https://github.com/GrUSP/2019.incontrodevops.it#readme",
+  "dependencies": {
+    "colour": "^0.7.1",
+    "jquery": "^3.1.1",
+    "js-yaml": "^3.12.0",
+    "merge": "^1.2.1",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.17.1",
+    "npm": "^5.8.0"
+  }
+}
