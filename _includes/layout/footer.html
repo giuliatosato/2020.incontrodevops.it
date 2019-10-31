@@ -44,6 +44,11 @@
                 <a href="{{ site.data.speakers.call_for_paper_url }}" target="_blank" class="button button--footer button--left">Call for paper</a>
               </div>
               {% endif %}
+              {% if site.data.conference.scholarship_available %}
+              <div class="footer__nav-item">
+                <a href="{{ site.baseurl }}/scholarships.html" class="button button--footer button--left">Scholarships</a>
+              </div>
+              {% endif %}
               <div class="footer__nav-item">
                 <a href="{{ site.baseurl }}/sponsor.html" class="button button--footer button--left">Sponsor</a>
               </div>
