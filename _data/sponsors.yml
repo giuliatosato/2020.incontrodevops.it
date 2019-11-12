@@ -51,12 +51,16 @@ platinum:
   max: 12
   list:
     -
-      url: https://www.flowing.it/?utm_source=idi2019
+      url: https://www.flowing.it/?utm_source=idi2020
       image: flowing.svg
     -
-      url: https://www.biodec.it/?utm_source=idi2019
+      url: https://www.biodec.it/?utm_source=idi2020
       image: biodec.svg
 
+    -
+      url: https://sighup.io/?utm_source=idi2020
+      image: sighup.svg
+      
 gold:
   price: € 1,500
   offer:
