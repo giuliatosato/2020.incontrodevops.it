@@ -32,7 +32,7 @@ diamond:
     - Your own rollup in the conference room
     - Stand (table 2m x 1m)
     - Bring your own gadgets (flyers, stickers, t-shirts)
-    - 2 free tickets
+    - 4 free tickets
     - 5 tickets with 20% discount
   max: 4
   list:
@@ -46,7 +46,7 @@ platinum:
     - Your own rollup in the conference room
     - Stand (table 1m x 1m)
     - Bring your own gadgets (flyers, stickers, t-shirts)
-    - 1 free ticket
+    - 3 free tickets
     - 5 tickets with 15% discount
   max: 12
   list:
@@ -69,6 +69,7 @@ gold:
     - Your logo on conference rollups
     - Your own rollup in the conference room
     - Bring your own gadgets (flyers, stickers, t-shirts)
+    - 2 free tickets    
     - 3 tickets with 15% discount
   max: 16
   list:
@@ -80,6 +81,7 @@ silver:
     - Your logo on conference website
     - Your logo on conference rollups
     - Bring your own gadgets (flyers, stickers, t-shirts)
+    - 1 free ticket    
     - 3 tickets with 10% discount
   max: 32
   list:
