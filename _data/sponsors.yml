@@ -36,6 +36,9 @@ diamond:
     - 5 tickets with 20% discount
   max: 4
   list:
+    -
+      url: https://sighup.io/?utm_source=idi2020
+      image: sighup.svg  
 
 platinum:
   price: € 3,000
@@ -56,10 +59,6 @@ platinum:
     -
       url: https://www.biodec.it/?utm_source=idi2020
       image: biodec.svg
-
-    -
-      url: https://sighup.io/?utm_source=idi2020
-      image: sighup.svg
       
 gold:
   price: € 1,500
