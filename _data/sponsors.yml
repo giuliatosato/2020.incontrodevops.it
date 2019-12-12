@@ -59,6 +59,9 @@ platinum:
     -
       url: https://www.biodec.it/?utm_source=idi2020
       image: biodec.svg
+    -
+      url: https://repetitive.it/?utm_source=idi2020
+      image: repetitive.svg
       
 gold:
   price: € 1,500
