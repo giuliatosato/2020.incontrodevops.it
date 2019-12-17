@@ -87,7 +87,9 @@ silver:
     - 3 tickets with 10% discount
   max: 32
   list:
-
+    -
+      url: https://madisoft.it/?utm_source=idi2020
+      image: madisoft.svg
 bronze:
   price: € 500
   offer:
