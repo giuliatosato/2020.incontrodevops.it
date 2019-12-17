@@ -88,7 +88,7 @@ silver:
   max: 32
   list:
     -
-      url: https://madisoft.it/?utm_source=idi2020
+      url: https://labs.madisoft.it/devops-engineer/?utm_source=idi2020
       image: madisoft.svg
 bronze:
   price: € 500
