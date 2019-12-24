@@ -2,11 +2,25 @@
 # img/conf-name/speaker/file.jpg
 call_for_paper_url: "mailto:info@incontrodevops.it"
 call_for_paper: true
-# list:
-#   -
-#     id: niels-devos
-#     description:
-#     image: niels-devos.jpg
-#     first_name: Niels
-#     last_name: de Vos
-#     twitter: nixpanic
+list:
+  -
+    id: vittorio-bertola
+    description: "Vittorio Bertola is an engineer, policy expert, entrepreneur and activist from Italy, and the Head of Policy & Innovation at Open-Xchange, the global leader in open source email and DNS platforms. In the past he founded startups, campaigns, Usenet newsgroups and political parties, served on the Board of ICANN and on United Nations internet governance groups, wrote unnecessarily complex Perl scripts, and argued online on a lot of things with a lot of people."
+    image: vittorio-bertola.jpg
+    first_name: Vittorio
+    last_name: Bertola
+    twitter: vittoriobertola
+  -
+    id: marco-abis
+    description: "Fondatore dell'Italian Agile Movement nel 2002 e dell'Agile Day nel 2004, organizzatore della prima European ScrumMaster class con Ken Schwaber nel 2003, è stato eletto Director dell'Agile Alliance nel 2003-2005. Da sempre promotore di approcci come Continuous Delivery e DevOps, oltre ad avere fondato aziende in Italia e UK ha anche lavorato come Agile Coach e membro del Global Management Team per ThoughtWorks in UK, US e India. Oggi membro del Governance team in XPeppers/Claranet Italia."
+    image: marco-abis.jpg
+    first_name: Marco
+    last_name: Abis
+    twitter: capotribu
+  -
+    id: rigel-discala
+    description: "Rigel is a software architect and engineer with almost 20 years of professional experience. He has led the design and implementation of several, award-winning digital transformation projects for EU and US legislatures, global information service providers, and financial institutions. He works for Red Hat as a senior consultant in the following areas: Cloud architecture, DevOps tools and ways of working, and API ecosystems for large enterprises. He also has co-authored a book on vector graphics and Inkscape, the popular FOSS illustration program. He learned programming on a Commodore Vic-20."
+    image: rigel-discala.jpg
+    first_name: Rigel
+    last_name: Di Scala
+    twitter: 
