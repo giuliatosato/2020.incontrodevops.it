@@ -3,7 +3,7 @@
   title: "Inside Hotel California: how the Internet giants dominate through culture and technology"
   keynote: true
   extract: >
-    "If you want to know what really drives the world, just follow 
+    If you want to know what really drives the world, just follow
     the money.  This talk will offer a different view on common cultural
     mantras and technical trends of the Internet, such as "the Internet
     should not be regulated", "there should not be national borders online",
@@ -21,12 +21,12 @@
     note, regulatory efforts for a European political response will be
     summarized, and the open, cooperative, interoperable model based on free
     software and open standards will be presented as the possible way
-    forward for the European Internet community."
+    forward for the European Internet community.
 -
   speaker_id: marco-abis
   title: "It takes two to DevOps"
   extract: >
-    "In common parlance (and marketing/recruitment speak) DevOps
+    In common parlance (and marketing/recruitment speak) DevOps
     has transformed into a noun but that's misleading as you cannot be "a 
     DevOps".  Some say it's an adjective and a ‘DevOps person’ is someone
     who cares about and supports the DevOps principles while others suggest
@@ -36,12 +36,12 @@
     goal is to ensure that software runs well in Production, especially in
     the context of regular changes (deployments). If you lead a team and
     want to understand why and how to make your software systems work
-    better, then this talk is for you."
+    better, then this talk is for you.
 -
   speaker_id: rigel-discala
   title: "Write your own Kubernetes Operator using Ansible"
   extract: >
-    "This "talkshop" introduces the concept of Kubernetes Operators
+    This "talkshop" introduces the concept of Kubernetes Operators
     and guides the attendee in writing a simple one on OpenShift using the
     Ansible automation framework.  Level: Intermediate, for developers and
-    system admins, no programming knowledge needed"
+    system admins, no programming knowledge needed.
