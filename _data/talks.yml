@@ -198,90 +198,90 @@
     experience managing difficult transitions/rollouts for Wikipedia, I will
     underline what and how is worth testing in production, and some
     recommended patterns for doing so, both at large and small scale.
-# -
-#   speaker_id: jacopo-nardiello
-#   title: "Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you"
-#   extract: >    
-#     On Sept. 3rd, 2019, the M5S held a vote on the Rousseau Platform from
-#     which was depending the whole country's political system and the current
-#     government. The vote ended with over 100.000+ preferences, millions of
-#     visiting users, tens of malevolent players reverse engineering your
-#     stack, and all principal press offices closely observing the platform
-#     behaviors.  In this talk, we will dive deep into the technical
-#     architecture behind the new Rousseau Platform, based on AWS, Kubernetes
-#     Fury and upstream Open Source Cloud Native components.  We will also
-#     discuss and share our journey and lessons learned as operators working
-#     in a high-pressure environment and national scrutiny.
+-
+  speaker_id: emanuel-mazzini
+  title: "Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you"
+  extract: >    
+    On Sept. 3rd, 2019, the M5S held a vote on the Rousseau Platform from
+    which was depending the whole country's political system and the current
+    government. The vote ended with over 100.000+ preferences, millions of
+    visiting users, tens of malevolent players reverse engineering your
+    stack, and all principal press offices closely observing the platform
+    behaviors.  In this talk, we will dive deep into the technical
+    architecture behind the new Rousseau Platform, based on AWS, Kubernetes
+    Fury and upstream Open Source Cloud Native components.  We will also
+    discuss and share our journey and lessons learned as operators working
+    in a high-pressure environment and national scrutiny.
 
-# -
-#   speaker_id: michele-sacchetti
-#   title: Tale of two cities, dark release in both REST and Message Driven ecosystem
-#   extract: >
-#     In un ambiente di produzione a micro-servizi avere la possibilità di
-#     avere dei deploy ""dark"" per valutare gli impatti delle nuove
-#     funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
-#     service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
-#     in un ambiente misto in cui i servizi dialogano anche in con approccio
-#     asincrono message driven ci sono alcuni importanti criticità da
-#     affrontare per poter ottenere il risultato atteso.  Lo speech illustra
-#     come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
-#     della nostra pipeline di Continuous Delivery per gestire dei
-#     microservizi “dark” affiancati a quelli live sia in ambiente di
-#     integrazione per velocizzare e parallelizzare lo sviluppo, sia in
-#     produzione per poter fare rilasci a zero downtime e A/B Testing.  La
-#     seconda parte illustra come siamo riusciti ad estendere lo stesso
-#     concetto anche alla parte di micro-servizi che dialoga non tramite
-#     chiamate REST ma via messaggistica Kafka, un ambito attualmente non
-#     coperto dal concetto di service mesh dove abbiamo dovuto implementare
-#     una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
-#     ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
-#     per ciascuna funzionalità sviluppata.
-# -
-#   speaker_id: franco-torriani
-#   title: Tale of two cities, dark release in both REST and Message Driven ecosystem
-#   extract: >
-#     In un ambiente di produzione a micro-servizi avere la possibilità di
-#     avere dei deploy ""dark"" per valutare gli impatti delle nuove
-#     funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
-#     service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
-#     in un ambiente misto in cui i servizi dialogano anche in con approccio
-#     asincrono message driven ci sono alcuni importanti criticità da
-#     affrontare per poter ottenere il risultato atteso.  Lo speech illustra
-#     come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
-#     della nostra pipeline di Continuous Delivery per gestire dei
-#     microservizi “dark” affiancati a quelli live sia in ambiente di
-#     integrazione per velocizzare e parallelizzare lo sviluppo, sia in
-#     produzione per poter fare rilasci a zero downtime e A/B Testing.  La
-#     seconda parte illustra come siamo riusciti ad estendere lo stesso
-#     concetto anche alla parte di micro-servizi che dialoga non tramite
-#     chiamate REST ma via messaggistica Kafka, un ambito attualmente non
-#     coperto dal concetto di service mesh dove abbiamo dovuto implementare
-#     una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
-#     ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
-#     per ciascuna funzionalità sviluppata.
-# -
-#   speaker_id: marco-tozzi
-#   title: Tale of two cities, dark release in both REST and Message Driven ecosystem
-#   extract: >
-#     In un ambiente di produzione a micro-servizi avere la possibilità di
-#     avere dei deploy ""dark"" per valutare gli impatti delle nuove
-#     funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
-#     service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
-#     in un ambiente misto in cui i servizi dialogano anche in con approccio
-#     asincrono message driven ci sono alcuni importanti criticità da
-#     affrontare per poter ottenere il risultato atteso.  Lo speech illustra
-#     come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
-#     della nostra pipeline di Continuous Delivery per gestire dei
-#     microservizi “dark” affiancati a quelli live sia in ambiente di
-#     integrazione per velocizzare e parallelizzare lo sviluppo, sia in
-#     produzione per poter fare rilasci a zero downtime e A/B Testing.  La
-#     seconda parte illustra come siamo riusciti ad estendere lo stesso
-#     concetto anche alla parte di micro-servizi che dialoga non tramite
-#     chiamate REST ma via messaggistica Kafka, un ambito attualmente non
-#     coperto dal concetto di service mesh dove abbiamo dovuto implementare
-#     una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
-#     ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
-#     per ciascuna funzionalità sviluppata.
+-
+  speaker_id: michele-sacchetti
+  title: Tale of two cities, dark release in both REST and Message Driven ecosystem
+  extract: >
+    In un ambiente di produzione a micro-servizi avere la possibilità di
+    avere dei deploy ""dark"" per valutare gli impatti delle nuove
+    funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
+    service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
+    in un ambiente misto in cui i servizi dialogano anche in con approccio
+    asincrono message driven ci sono alcuni importanti criticità da
+    affrontare per poter ottenere il risultato atteso.  Lo speech illustra
+    come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
+    della nostra pipeline di Continuous Delivery per gestire dei
+    microservizi “dark” affiancati a quelli live sia in ambiente di
+    integrazione per velocizzare e parallelizzare lo sviluppo, sia in
+    produzione per poter fare rilasci a zero downtime e A/B Testing.  La
+    seconda parte illustra come siamo riusciti ad estendere lo stesso
+    concetto anche alla parte di micro-servizi che dialoga non tramite
+    chiamate REST ma via messaggistica Kafka, un ambito attualmente non
+    coperto dal concetto di service mesh dove abbiamo dovuto implementare
+    una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
+    ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
+    per ciascuna funzionalità sviluppata.
+-
+  speaker_id: franco-torriani
+  title: Tale of two cities, dark release in both REST and Message Driven ecosystem
+  extract: >
+    In un ambiente di produzione a micro-servizi avere la possibilità di
+    avere dei deploy ""dark"" per valutare gli impatti delle nuove
+    funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
+    service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
+    in un ambiente misto in cui i servizi dialogano anche in con approccio
+    asincrono message driven ci sono alcuni importanti criticità da
+    affrontare per poter ottenere il risultato atteso.  Lo speech illustra
+    come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
+    della nostra pipeline di Continuous Delivery per gestire dei
+    microservizi “dark” affiancati a quelli live sia in ambiente di
+    integrazione per velocizzare e parallelizzare lo sviluppo, sia in
+    produzione per poter fare rilasci a zero downtime e A/B Testing.  La
+    seconda parte illustra come siamo riusciti ad estendere lo stesso
+    concetto anche alla parte di micro-servizi che dialoga non tramite
+    chiamate REST ma via messaggistica Kafka, un ambito attualmente non
+    coperto dal concetto di service mesh dove abbiamo dovuto implementare
+    una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
+    ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
+    per ciascuna funzionalità sviluppata.
+-
+  speaker_id: marco-tozzi
+  title: Tale of two cities, dark release in both REST and Message Driven ecosystem
+  extract: >
+    In un ambiente di produzione a micro-servizi avere la possibilità di
+    avere dei deploy ""dark"" per valutare gli impatti delle nuove
+    funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
+    service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
+    in un ambiente misto in cui i servizi dialogano anche in con approccio
+    asincrono message driven ci sono alcuni importanti criticità da
+    affrontare per poter ottenere il risultato atteso.  Lo speech illustra
+    come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
+    della nostra pipeline di Continuous Delivery per gestire dei
+    microservizi “dark” affiancati a quelli live sia in ambiente di
+    integrazione per velocizzare e parallelizzare lo sviluppo, sia in
+    produzione per poter fare rilasci a zero downtime e A/B Testing.  La
+    seconda parte illustra come siamo riusciti ad estendere lo stesso
+    concetto anche alla parte di micro-servizi che dialoga non tramite
+    chiamate REST ma via messaggistica Kafka, un ambito attualmente non
+    coperto dal concetto di service mesh dove abbiamo dovuto implementare
+    una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
+    ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
+    per ciascuna funzionalità sviluppata.
 
 # -
 #   speaker_id: leonardo-didonato

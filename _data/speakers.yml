@@ -109,50 +109,50 @@ list:
   #   last_name: Nardiello
   #   twitter:   
 
-  # -
-  #   id: emanuel-mazzini
-  #   description: >
+  -
+    id: emanuel-mazzini
+    description: >
 
-  #   image: emanuel-mazzini.jpg
-  #   first_name: Emanuel
-  #   last_name: Mazzini
-  #   twitter:   
+    image: emanuel-mazzini.jpg
+    first_name: Emanuel
+    last_name: Mazzini
+    twitter:   
 
-  # -
-  #   id: christian-laurini
-  #   description: >
+  -
+    id: christian-laurini
+    description: >
 
-  #   image: christian-laurini
-  #   first_name: Christian
-  #   last_name: Laurini
-  #   twitter:   
+    image: christian-laurini
+    first_name: Christian
+    last_name: Laurini
+    twitter:   
 
-  # -
-  #   id: michele-sacchetti
-  #   description: >
+  -
+    id: michele-sacchetti
+    description: >
 
-  #   image: michele-sacchetti.jpg
-  #   first_name: Michele
-  #   last_name: Sacchetti
-  #   twitter:   
+    image: michele-sacchetti.jpg
+    first_name: Michele
+    last_name: Sacchetti
+    twitter:   
 
-  # -
-  #   id: franco-torriani
-  #   description: >
+  -
+    id: franco-torriani
+    description: >
 
-  #   image: franco-torriani.jpg
-  #   first_name: Franco
-  #   last_name: Torriani
-  #   twitter:   
+    image: franco-torriani.jpg
+    first_name: Franco
+    last_name: Torriani
+    twitter:   
 
-  # -
-  #   id: marco-tozzi
-  #   description: >
+  -
+    id: marco-tozzi
+    description: >
 
-  #   image: marco-tozzi.jpg
-  #   first_name: Marco
-  #   last_name: Tozzi
-  #   twitter:   
+    image: marco-tozzi.jpg
+    first_name: Marco
+    last_name: Tozzi
+    twitter:   
 
   # -
   #   id: gabriella-castelli
@@ -197,7 +197,7 @@ list:
   #   first_name: Giulio  
   #   last_name: Vian
   #   twitter:   
-  
+
   # -
   #   id: 
   #   description: >
