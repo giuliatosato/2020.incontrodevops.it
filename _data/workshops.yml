@@ -75,40 +75,40 @@ list:
     useful_info: |
       La durata del corso è di una giornata e **si terrà il 5 Marzo** (il giorno prima della conferenza).
       È responsabilità del partecipante arrivare con portatile configurato e funzionante con Vagrant. Vi daremo tutte le indicazioni utili per la configurazione.
-  # -
-  #   slug: corso-kubernetes
-  #   title: Operare Ambienti di Produzione su Kubernetes
-  #   when: 7 Marzo 2019, Bologna
-  #   where: Hotel Savoia Regency, Via del Pilasto 2, 40127, Bologna BO
-  #   map: https://goo.gl/maps/pT6toDSe3Em
-  #   ticket: /tickets.html
-  #   partner:
-  #     name: sighup
-  #     link: https://www.sighup.io
-  #   teacher:
-  #     -
-  #       name: Luca Novara
-  #       picture: luca-novara.jpg
-  #       bio: Devops Engineer
-  #       link:
-  #   intro: |
-  #     "Questo workshop è rivolto a sistemisti e DevOps engineer che già utilizzano Kubernetes e che vogliono approfondire alcuni aspetti avanzati legati alla gestione di cluster Kubernetes in ambienti di produzione.
-  #     La prima parte sarà dedicata ai principali aspetti di deployment e mantenimento degli applicativi con particolare attenzione a best practice, troubleshooting, logging e monitoraggio.
-  #     La seconda parte sarà dedicata alla messa in sicurezza del cluster focalizzandoci sulla gestione degli accessi, la protezione dei dati e la migrazione.
-  #     L’obiettivo del corso è di fornire ai partecipanti un’esperienza pratica sugli aspetti fondamentali di gestione di un applicativo su cluster Kubernetes."
-  #   program: |
-  #     Scaletta corso:
-  #     - Come deployare applicazioni su Kubernetes seguendo le best practice
-  #     - Come fare troubleshooting e debugging
-  #     - Monitoraggio infrastrutturale e applicativo con Prometheus
-  #     - Logging centralizzato
-  #     - Autenticazione e autorizzazione
-  #     - Backup e disaster recovery
-  #     - Come migrare applicativi da un cluster ad un altro
-  #   addressed_info: |
-  #     Alla fine del corso ogni partecipante saprà gestire applicazioni su Kubernetes e avrà sperimentato, con un approccio hands-on, le features di Kubernetes utili per gestire applicazioni in produzione.
-  #   useful_info: |
-  #      La durata del corso è di una giornata e si terrà il 7 Marzo (il giorno prima della conferenza). È responsabilità del partecipante arrivare con portatile configurato e funzionante. Qualche giorno prima del corso verranno fornite ulteriori istruzioni per configurare ed installare le applicazioni necessarie.
+  -
+    slug: corso-kubernetes
+    title: Gestire ambienti di produzione con Kubernetes
+    when: 5 Marzo 2020, Bologna
+    where: Hotel Savoia Regency, Via del Pilasto 2, 40127, Bologna BO
+    map: https://goo.gl/maps/pT6toDSe3Em
+    ticket: /tickets.html
+    partner:
+      name: sighup
+      link: https://www.sighup.io
+    teacher:
+      -
+        name: Luca Novara
+        picture: luca-novara.jpg
+        bio: Devops Engineer
+        link:
+    intro: |
+      "Questo workshop è rivolto a sistemisti e DevOps engineer che già utilizzano Kubernetes e che vogliono approfondire alcuni aspetti avanzati legati alla gestione di cluster Kubernetes in ambienti di produzione.
+      La prima parte sarà dedicata ai principali aspetti di deployment e mantenimento degli applicativi con particolare attenzione a best practice, troubleshooting, logging e monitoraggio.
+      La seconda parte sarà dedicata alla messa in sicurezza del cluster focalizzandoci sulla gestione degli accessi, la protezione dei dati e la migrazione.
+      L’obiettivo del corso è di fornire ai partecipanti un’esperienza pratica sugli aspetti fondamentali di gestione di un applicativo su cluster Kubernetes."
+    program: |
+      Scaletta corso:
+      - Come deployare applicazioni su Kubernetes seguendo le best practice
+      - Come fare troubleshooting e debugging
+      - Monitoraggio infrastrutturale e applicativo con Prometheus
+      - Logging centralizzato
+      - Autenticazione e autorizzazione
+      - Backup e disaster recovery
+      - Come migrare applicativi da un cluster ad un altro
+    addressed_info: |
+      Alla fine del corso ogni partecipante saprà gestire applicazioni su Kubernetes e avrà sperimentato, con un approccio hands-on, le features di Kubernetes utili per gestire applicazioni in produzione.
+    useful_info: |
+       La durata del corso è di una giornata e si terrà il 7 Marzo (il giorno prima della conferenza). È responsabilità del partecipante arrivare con portatile configurato e funzionante. Qualche giorno prima del corso verranno fornite ulteriori istruzioni per configurare ed installare le applicazioni necessarie.
 
 
   # -
