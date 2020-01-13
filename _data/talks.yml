@@ -45,3 +45,261 @@
     and guides the attendee in writing a simple one on OpenShift using the
     Ansible automation framework.  Level: Intermediate, for developers and
     system admins, no programming knowledge needed.
+
+-
+  speaker_id: anton-babenko
+  title: Hacking Terraform for fun and profit
+  extract: >
+    If you’ve been using Terraform just by following the official
+    documentation, you are not getting all from it.
+
+    As soon as one cloud provider announces a new service or a feature, you
+    dream that Terraform has zero-day support for it. Well, it is not always
+    like this, and I will show what we can do about it.
+
+    Are you using Terraform and keep asking yourself why I should copy-paste
+    so much? What if you need to manage more than a dozen resources with
+    Terraform (e.g., hundreds of GitHub repositories with permissions, or
+    hundreds of IAM users and their permissions)? How can I use Terraform to
+    manage absolutely ANY type of resource? What is beyond Terraform
+    modules? What is a really dynamic module and what Terraform 0.12 will
+    help us with?
+
+    Let's see the advanced and very unusual solutions of how Terraform can
+    be extended, integrated, executed, or merely hacked to get the job done
+    with the help of external open-source services and integrations.
+
+# -
+#   speaker_id: gabriella-castelli
+#   title: The Road to DevOps 
+#   extract: >
+#     Si può fare DevOps in una banca commerciale tradizionale?
+#     Nel talk illustreremo l'approccio che abbiamo seguito per introdurre i
+#     primi elementi di DevOps mostrando come è possibile cambiare anche in un
+#     mondo caratterizzato da forti vincoli normativi, software legacy e un
+#     contesto culturale di stampo tradizionale.
+#     Discuteremo anche cosa stiamo imparando durante questo viaggio e come il
+#     percorso sta evolvendo man mano che lo percorriamo. In particolare
+#     stiamo vedendo davvero ""sulla nostra pelle"" quanto il DevOps sia un
+#     cambiamento culturale e di metodo e non solo di tecnologia. 
+
+-
+  speaker_id: francesco-degrassi
+  title: Surviving microservices
+  extract: >
+    Challenges and risks during adoption, and what to look for beyond.
+    With microservices becoming mainstream a few years ago, many
+    organizations have now adopted them; even though all are paying the
+    price in terms of training, solution complexity and operational costs,
+    few are reaping the promised benefits.  Lower velocity, quality and
+    performance issues, along with an overall lack of visibility are what we
+    hear about most often.  In this session, working from our experience as
+    advisors to software development teams, we’ll walk you through some of
+    the symptoms you might experience, their possible causes and some
+    potential solutions.  Furthermore we outline a pragmatic adoption
+    framework to guide the technology choices in terms of your specific
+    domain, goals and constraints.
+
+-
+  speaker_id: paolo-melchiorre
+  title: A Django project template with CI/CD pipelines and k8s orchestration
+  extract: >
+    Illustro il nostro template di sviluppo open-source per lo sviluppo, il
+    test ed il delivery di progetti principalmente basati su Python, Django,
+    PostgreSQL, uWSGI e React che usiamo in produzione di progetti di medie
+    e grandi dimensioni, per fornire servizi web o mobile.  In questo talk
+    il pubblico potrà vedere come noi mettiamo in pratica le regole dello
+    sviluppo agile in ambito web usando il linguaggio ed il framework web
+    che preferiamo con l'utilizzo di tecnologie di orchestrazione e CI/CD il
+    tutto racchiuso nel nostro template open-source e riutilizzabile da
+    tutti così com'è o adattabile anche con altri linguaggi di
+    programmazione o framework.  In definitiva vorremo portare l'esempio
+    della nostra azienda dove, pur non avendo una figura dedicata
+    esclusivamente ai processi specifici del DevOps usiamo ne usiamo
+    l'approccio coordinandoci tramite il nostro template.
+-
+  speaker_id: raffaele-colace
+  title: A Django project template with CI/CD pipelines and k8s orchestration
+  extract: >
+    Illustro il nostro template di sviluppo open-source per lo sviluppo, il
+    test ed il delivery di progetti principalmente basati su Python, Django,
+    PostgreSQL, uWSGI e React che usiamo in produzione di progetti di medie
+    e grandi dimensioni, per fornire servizi web o mobile.  In questo talk
+    il pubblico potrà vedere come noi mettiamo in pratica le regole dello
+    sviluppo agile in ambito web usando il linguaggio ed il framework web
+    che preferiamo con l'utilizzo di tecnologie di orchestrazione e CI/CD il
+    tutto racchiuso nel nostro template open-source e riutilizzabile da
+    tutti così com'è o adattabile anche con altri linguaggi di
+    programmazione o framework.  In definitiva vorremo portare l'esempio
+    della nostra azienda dove, pur non avendo una figura dedicata
+    esclusivamente ai processi specifici del DevOps usiamo ne usiamo
+    l'approccio coordinandoci tramite il nostro template.
+-
+  speaker_id: marco-pracucci
+  title: Scaling Prometheus with Cortex, one time series at a time
+  extract: >
+    Cortex is a  scalable, highly available,  multi-tenant, long term
+    storage for Prometheus. It is  designed to reliably ingest  and query
+    millions  of time series per second, while keeping the operational cost
+    low. But if you try to  get started,  it is  easy to  get lost  in the
+    tens of  different components and config options.  In this  talk,  we
+    will  introduce Cortex  and  its  architecture  in  an approachable way.
+    We’ll start  from the minimum  setup required and  we’ll iteratively
+    cover   the   Cortex  core   design   principles,   sharding,
+    replication, failure modes and a  series of techniques employed by
+    Cortex for accelerating PromQL queries.  Finally, we’ll  look at  what
+    the  future holds  for us  and the  upcoming features and improvements
+    in Cortex.  Cortex is an open source project,  released under the Apache
+    2.0  license, and in the CNCF sandbox stage.
+-
+  speaker_id: massimo-referre
+  title: "Serverless and containers are coming together: an AWS perspective"
+  extract: >
+    Containers have been a driving force in this industry for the
+    last 5+ years. In the meanwhile we have seen the raise of other compute
+    patterns, such as serverless. 2020 seems to be the year where the line
+    between containers and serverless starts to blurry. We are seeing the
+    raise of container serverless platforms (e.g. AWS Fargate) as well as
+    the raise of higher order abstractions above container platforms (e.g.
+    OpenFaaS, ECS CLI v2, …) that allows developers to focus on their code
+    instead of managing containers. In this session we will discuss how the
+    serverless benefits are starting to permeate into the container
+    ecosystem and we will provide real life examples of how some AWS and OSS
+    technologies can be used to abstract and remove part of the
+    undifferentiated heavy lifting developers often need to take care of.
+# -
+#   speaker_id: alessandro-proscia
+#   title: "Da DevSecOps a SecDevOps: Security is not a matter of doors (and sometimes windows are broken)"
+#   extract: >
+#     Se per decenni il mantra nel mondo dell'IT è stato _Prima il software
+#     poi i sistemi_, altrettanto lo è ancora la Sicurezza: questa ancora oggi
+#     è vista come un aspetto perimetrale di un infrastruttura e spesso
+#     relegata alla sola componente Ops.  Nel mondo DevOps l'infrastruttura è
+#     diventata parte integrante dello sviluppo e la visione della Sicurezza è
+#     mutuata nel concetto moderno di DevSecOps. Tuttavia l'infrastruttura è
+#     solo un aspetto di cui preoccuparsi: la Sicurezza è anche una questione
+#     di software, persone e processi.  Ad oggi la Sicurezza è un fattore
+#     decisivo ed abilitante per il business: è necessaria pertanto un
+#     evoluzione dalla sua visione tradizionale ad un approccio più organico.
+#     La Sicurezza pertanto deve seguire la stessa evoluzione del mondo Ops:
+#     essere presa in considerazione _By design_ in ogni aspetto del ciclo di
+#     vita del software.  Nell'incontro saranno presentate le differenze tra
+#     gli approcci tradizionali e DevSecOps fino ad arrivare alla sua
+#     evoluzione in SecDevOps: verrà in particolare delineato un percorso in
+#     cui il punto finale sarà la Sicurezza come parte integrante della
+#     metodologia DevOps.
+-
+  speaker_id: giuseppe-lavagetto
+  title: Testing in production for fun and profit
+  extract: >
+    While it's common wisdom that testing in production is a
+    bad thing, it's actually a fundamental part of the work of most
+    deployments in a fast-paced environment. In this talk, starting from my
+    experience managing difficult transitions/rollouts for Wikipedia, I will
+    underline what and how is worth testing in production, and some
+    recommended patterns for doing so, both at large and small scale.
+# -
+#   speaker_id: jacopo-nardiello
+#   title: "Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you"
+#   extract: >    
+#     On Sept. 3rd, 2019, the M5S held a vote on the Rousseau Platform from
+#     which was depending the whole country's political system and the current
+#     government. The vote ended with over 100.000+ preferences, millions of
+#     visiting users, tens of malevolent players reverse engineering your
+#     stack, and all principal press offices closely observing the platform
+#     behaviors.  In this talk, we will dive deep into the technical
+#     architecture behind the new Rousseau Platform, based on AWS, Kubernetes
+#     Fury and upstream Open Source Cloud Native components.  We will also
+#     discuss and share our journey and lessons learned as operators working
+#     in a high-pressure environment and national scrutiny.
+
+# -
+#   speaker_id: michele-sacchetti
+#   title: Tale of two cities, dark release in both REST and Message Driven ecosystem
+#   extract: >
+#     In un ambiente di produzione a micro-servizi avere la possibilità di
+#     avere dei deploy ""dark"" per valutare gli impatti delle nuove
+#     funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
+#     service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
+#     in un ambiente misto in cui i servizi dialogano anche in con approccio
+#     asincrono message driven ci sono alcuni importanti criticità da
+#     affrontare per poter ottenere il risultato atteso.  Lo speech illustra
+#     come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
+#     della nostra pipeline di Continuous Delivery per gestire dei
+#     microservizi “dark” affiancati a quelli live sia in ambiente di
+#     integrazione per velocizzare e parallelizzare lo sviluppo, sia in
+#     produzione per poter fare rilasci a zero downtime e A/B Testing.  La
+#     seconda parte illustra come siamo riusciti ad estendere lo stesso
+#     concetto anche alla parte di micro-servizi che dialoga non tramite
+#     chiamate REST ma via messaggistica Kafka, un ambito attualmente non
+#     coperto dal concetto di service mesh dove abbiamo dovuto implementare
+#     una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
+#     ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
+#     per ciascuna funzionalità sviluppata.
+# -
+#   speaker_id: franco-torriani
+#   title: Tale of two cities, dark release in both REST and Message Driven ecosystem
+#   extract: >
+#     In un ambiente di produzione a micro-servizi avere la possibilità di
+#     avere dei deploy ""dark"" per valutare gli impatti delle nuove
+#     funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
+#     service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
+#     in un ambiente misto in cui i servizi dialogano anche in con approccio
+#     asincrono message driven ci sono alcuni importanti criticità da
+#     affrontare per poter ottenere il risultato atteso.  Lo speech illustra
+#     come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
+#     della nostra pipeline di Continuous Delivery per gestire dei
+#     microservizi “dark” affiancati a quelli live sia in ambiente di
+#     integrazione per velocizzare e parallelizzare lo sviluppo, sia in
+#     produzione per poter fare rilasci a zero downtime e A/B Testing.  La
+#     seconda parte illustra come siamo riusciti ad estendere lo stesso
+#     concetto anche alla parte di micro-servizi che dialoga non tramite
+#     chiamate REST ma via messaggistica Kafka, un ambito attualmente non
+#     coperto dal concetto di service mesh dove abbiamo dovuto implementare
+#     una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
+#     ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
+#     per ciascuna funzionalità sviluppata.
+# -
+#   speaker_id: marco-tozzi
+#   title: Tale of two cities, dark release in both REST and Message Driven ecosystem
+#   extract: >
+#     In un ambiente di produzione a micro-servizi avere la possibilità di
+#     avere dei deploy ""dark"" per valutare gli impatti delle nuove
+#     funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
+#     service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
+#     in un ambiente misto in cui i servizi dialogano anche in con approccio
+#     asincrono message driven ci sono alcuni importanti criticità da
+#     affrontare per poter ottenere il risultato atteso.  Lo speech illustra
+#     come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
+#     della nostra pipeline di Continuous Delivery per gestire dei
+#     microservizi “dark” affiancati a quelli live sia in ambiente di
+#     integrazione per velocizzare e parallelizzare lo sviluppo, sia in
+#     produzione per poter fare rilasci a zero downtime e A/B Testing.  La
+#     seconda parte illustra come siamo riusciti ad estendere lo stesso
+#     concetto anche alla parte di micro-servizi che dialoga non tramite
+#     chiamate REST ma via messaggistica Kafka, un ambito attualmente non
+#     coperto dal concetto di service mesh dove abbiamo dovuto implementare
+#     una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
+#     ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
+#     per ciascuna funzionalità sviluppata.
+
+# -
+#   speaker_id: leonardo-didonato
+#   title: Cloud Native eBPF Instrumentation
+#   extract: >
+#     In this talk we are going to see how in Cloud Native environments we have
+#     the common issue of having tools to instrument and comprehend the
+#     application behaviour at kernel level. To try to solve this problem I'll
+#     try to illustrate my opinions on how I used eBPF and eBPF based tools that
+#     are both the kernel and Kubernetes aware. In other words, Cloud Native.
+
+
+# -
+#   speaker_id:
+#   title:
+#   extract: >
+# -
+#   speaker_id:
+#   title:
+#   extract: >
+    
