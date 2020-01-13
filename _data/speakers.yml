@@ -1,7 +1,7 @@
 # place images in:
 # img/conf-name/speaker/file.jpg
 call_for_paper_url: "mailto:info@incontrodevops.it"
-call_for_paper: true
+call_for_paper: false
 list:
   -
     id: vittorio-bertola
