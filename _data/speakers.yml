@@ -110,19 +110,19 @@ list:
   #   twitter:   
 
   -
-    id: emanuel-mazzini
+    id: emanuel-mazzilli
     description: >
 
-    image: emanuel-mazzini.jpg
+    image: emanuel-mazzilli.jpg
     first_name: Emanuel
-    last_name: Mazzini
+    last_name: Mazzilli
     twitter:   
 
   -
     id: christian-laurini
     description: >
 
-    image: christian-laurini
+    image: christian-laurini.jpg
     first_name: Christian
     last_name: Laurini
     twitter:   
