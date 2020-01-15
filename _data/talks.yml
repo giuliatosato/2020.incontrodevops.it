@@ -294,20 +294,20 @@
 #     are both the kernel and Kubernetes aware. In other words, Cloud Native.
 
 
-# -
-#   speaker_id: maurizio-caltabiano
-#   title: IT Asset Management
-#   extract: >
-#       Nel percorso DevOps di automazione e controllo dell'intera
-#       filiera di produzione del software, Banca Mediolanum sviluppa un
-#       Configuration Management System ovvero uno strumento di analisi degli
-#       asset tecnologici basandosi su Neo4j, Spark e Hadoop. La scelta di
-#       modellare il dominio come un insieme di relazioni tra entità diverse ma
-#       tra loro naturalmente connesse si rivela vincente nel consentire di
-#       fornire insight mirati ed efficaci ai differenti attori e processi. Il
-#       graph database diventa il supporto di analisi strumentale per gli
-#       Specialisti IT nelle operazioni quotidiane di analisi di impatto,
-#       disegno e governo degli asset tecnologici.
+-
+  speaker_id: maurizio-caltabiano
+  title: IT Asset Management
+  extract: >
+      Nel percorso DevOps di automazione e controllo dell'intera
+      filiera di produzione del software, Banca Mediolanum sviluppa un
+      Configuration Management System ovvero uno strumento di analisi degli
+      asset tecnologici basandosi su Neo4j, Spark e Hadoop. La scelta di
+      modellare il dominio come un insieme di relazioni tra entità diverse ma
+      tra loro naturalmente connesse si rivela vincente nel consentire di
+      fornire insight mirati ed efficaci ai differenti attori e processi. Il
+      graph database diventa il supporto di analisi strumentale per gli
+      Specialisti IT nelle operazioni quotidiane di analisi di impatto,
+      disegno e governo degli asset tecnologici.
 
 # -
 #   speaker_id: giulio-vian

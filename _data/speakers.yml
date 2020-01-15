@@ -180,14 +180,14 @@ list:
   #   last_name: Tozzi
   #   twitter:   
 
-  # -
-  #   id: maurizio-caltabiano
-  #   description: >
+  -
+    id: maurizio-caltabiano
+    description: >
 
-  #   image: maurizio-caltabiano.jpg
-  #   first_name: Maurizio 
-  #   last_name: Caltabiano
-  #   twitter:   
+    image: maurizio-caltabiano.jpg
+    first_name: Maurizio 
+    last_name: Caltabiano
+    twitter:   
 
   # -
   #   id: giulio-vian
