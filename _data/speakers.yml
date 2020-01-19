@@ -82,14 +82,14 @@ list:
     last_name: Re Ferrè
     twitter:     
 
-  # -
-  #   id:  alessandro-proscia
-  #   description: >
-
-  #   image: alessandro-proscia.jpg
-  #   first_name: Alessandro
-  #   last_name: Proscia
-  #   twitter:     
+  -
+    id:  alessandro-proscia
+    description: >
+      Consulente IT con oltre 10 anni di esperienza in diverse importanti realtà finanziarie nazionali. Tra i principali interessi la Cybersecurity e la sua declinazione nel ciclo di vita del software
+    image: alessandro-proscia.jpg
+    first_name: Alessandro
+    last_name: Proscia
+    twitter:     
 
   -
     id: giuseppe-lavagetto
@@ -198,14 +198,16 @@ list:
   #   last_name: Vian
   #   twitter:   
 
-  # -
-  #   id: 
-  #   description: >
+  -
+    id: alessandro-molari
+    description: >
+        Alessandro è un Cyber Security Advisor: ha costruito il proprio background di Cyber Security nei gruppi di sicurezza, partendo come consulente e professionista, per poi fondare CyberLoop, un'azienda che pone al centro della propria consulenza il principio Security-as-a-Process
+    image: alessandro-molari.jpg
+    first_name: Alessandro 
+    last_name: Molari
+    twitter:   
 
-  #   image: 
-  #   first_name: 
-  #   last_name: 
-  #   twitter:   
+
   # -
   #   id: 
   #   description: >

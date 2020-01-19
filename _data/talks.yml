@@ -167,27 +167,48 @@
     ecosystem and we will provide real life examples of how some AWS and OSS
     technologies can be used to abstract and remove part of the
     undifferentiated heavy lifting developers often need to take care of.
-# -
-#   speaker_id: alessandro-proscia
-#   title: "Da DevSecOps a SecDevOps: Security is not a matter of doors (and sometimes windows are broken)"
-#   extract: >
-#     Se per decenni il mantra nel mondo dell'IT è stato _Prima il software
-#     poi i sistemi_, altrettanto lo è ancora la Sicurezza: questa ancora oggi
-#     è vista come un aspetto perimetrale di un infrastruttura e spesso
-#     relegata alla sola componente Ops.  Nel mondo DevOps l'infrastruttura è
-#     diventata parte integrante dello sviluppo e la visione della Sicurezza è
-#     mutuata nel concetto moderno di DevSecOps. Tuttavia l'infrastruttura è
-#     solo un aspetto di cui preoccuparsi: la Sicurezza è anche una questione
-#     di software, persone e processi.  Ad oggi la Sicurezza è un fattore
-#     decisivo ed abilitante per il business: è necessaria pertanto un
-#     evoluzione dalla sua visione tradizionale ad un approccio più organico.
-#     La Sicurezza pertanto deve seguire la stessa evoluzione del mondo Ops:
-#     essere presa in considerazione _By design_ in ogni aspetto del ciclo di
-#     vita del software.  Nell'incontro saranno presentate le differenze tra
-#     gli approcci tradizionali e DevSecOps fino ad arrivare alla sua
-#     evoluzione in SecDevOps: verrà in particolare delineato un percorso in
-#     cui il punto finale sarà la Sicurezza come parte integrante della
-#     metodologia DevOps.
+-
+  speaker_id: alessandro-proscia
+  title: "Da DevSecOps a SecDevOps: Security is not a matter of doors (and sometimes windows are broken)"
+  extract: >
+    Se per decenni il mantra nel mondo dell'IT è stato _Prima il software
+    poi i sistemi_, altrettanto lo è ancora la Sicurezza: questa ancora oggi
+    è vista come un aspetto perimetrale di un infrastruttura e spesso
+    relegata alla sola componente Ops.  Nel mondo DevOps l'infrastruttura è
+    diventata parte integrante dello sviluppo e la visione della Sicurezza è
+    mutuata nel concetto moderno di DevSecOps. Tuttavia l'infrastruttura è
+    solo un aspetto di cui preoccuparsi: la Sicurezza è anche una questione
+    di software, persone e processi.  Ad oggi la Sicurezza è un fattore
+    decisivo ed abilitante per il business: è necessaria pertanto un
+    evoluzione dalla sua visione tradizionale ad un approccio più organico.
+    La Sicurezza pertanto deve seguire la stessa evoluzione del mondo Ops:
+    essere presa in considerazione _By design_ in ogni aspetto del ciclo di
+    vita del software.  Nell'incontro saranno presentate le differenze tra
+    gli approcci tradizionali e DevSecOps fino ad arrivare alla sua
+    evoluzione in SecDevOps: verrà in particolare delineato un percorso in
+    cui il punto finale sarà la Sicurezza come parte integrante della
+    metodologia DevOps.
+-
+  speaker_id: alessandro-molari
+  title: "Da DevSecOps a SecDevOps: Security is not a matter of doors (and sometimes windows are broken)"
+  extract: >
+    Se per decenni il mantra nel mondo dell'IT è stato _Prima il software
+    poi i sistemi_, altrettanto lo è ancora la Sicurezza: questa ancora oggi
+    è vista come un aspetto perimetrale di un infrastruttura e spesso
+    relegata alla sola componente Ops.  Nel mondo DevOps l'infrastruttura è
+    diventata parte integrante dello sviluppo e la visione della Sicurezza è
+    mutuata nel concetto moderno di DevSecOps. Tuttavia l'infrastruttura è
+    solo un aspetto di cui preoccuparsi: la Sicurezza è anche una questione
+    di software, persone e processi.  Ad oggi la Sicurezza è un fattore
+    decisivo ed abilitante per il business: è necessaria pertanto un
+    evoluzione dalla sua visione tradizionale ad un approccio più organico.
+    La Sicurezza pertanto deve seguire la stessa evoluzione del mondo Ops:
+    essere presa in considerazione _By design_ in ogni aspetto del ciclo di
+    vita del software.  Nell'incontro saranno presentate le differenze tra
+    gli approcci tradizionali e DevSecOps fino ad arrivare alla sua
+    evoluzione in SecDevOps: verrà in particolare delineato un percorso in
+    cui il punto finale sarà la Sicurezza come parte integrante della
+    metodologia DevOps.
 -
   speaker_id: giuseppe-lavagetto
   title: Testing in production for fun and profit
