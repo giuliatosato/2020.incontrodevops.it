@@ -100,14 +100,14 @@ list:
     last_name: Lavagetto
     twitter:   
 
-  # -
-  #   id: jacopo-nardiello
-  #   description: >
+  -
+    id: jacopo-nardiello
+    description: >
 
-  #   image: jacopo-nardiello.jpg
-  #   first_name: Jacopo 
-  #   last_name: Nardiello
-  #   twitter:   
+    image: jacopo-nardiello.jpg
+    first_name: Jacopo 
+    last_name: Nardiello
+    twitter:   
 
   -
     id: emanuel-mazzilli
@@ -154,14 +154,14 @@ list:
     last_name: Tozzi
     twitter:   
 
-  # -
-  #   id: gabriella-castelli
-  #   description: >
+  -
+    id: gabriella-castelli
+    description: >
 
-  #   image: gabriella-castelli.jpg
-  #   first_name: Gabriella 
-  #   last_name: Castelli
-  #   twitter:     
+    image: gabriella-castelli.jpg
+    first_name: Gabriella 
+    last_name: Castelli
+    twitter:     
 
   # -
   #   id: leonardo-didonato
@@ -171,14 +171,14 @@ list:
   #   first_name: Leonardo
   #   last_name: Di Donato
   #   twitter:   
-  # -
-  #   id: marco-tozzi
-  #   description: >
+  -
+    id: marco-tozzi
+    description: >
 
-  #   image: marco-tozzi.jpg
-  #   first_name: Marco
-  #   last_name: Tozzi
-  #   twitter:   
+    image: marco-tozzi.jpg
+    first_name: Marco
+    last_name: Tozzi
+    twitter:   
 
   -
     id: maurizio-caltabiano
@@ -207,15 +207,15 @@ list:
     last_name: Molari
     twitter:   
 
+  -
+    id: floor-drees
+    description: >
+      Floor Drees is a Cloud Advocate Program Manager at Microsoft, self-taught (Ruby) developer, and champion supporter of open source by trade. Floor organizes a ton of tech events around app dev and software architecture.
+    image: floor-dress.jpg
+    first_name: Floor 
+    last_name: Drees
+    twitter: floordrees
 
-  # -
-  #   id: 
-  #   description: >
-
-  #   image: 
-  #   first_name: 
-  #   last_name: 
-  #   twitter:   
   # -
   #   id: 
   #   description: >

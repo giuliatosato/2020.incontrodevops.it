@@ -69,19 +69,19 @@
     be extended, integrated, executed, or merely hacked to get the job done
     with the help of external open-source services and integrations.
 
-# -
-#   speaker_id: gabriella-castelli
-#   title: The Road to DevOps 
-#   extract: >
-#     Si può fare DevOps in una banca commerciale tradizionale?
-#     Nel talk illustreremo l'approccio che abbiamo seguito per introdurre i
-#     primi elementi di DevOps mostrando come è possibile cambiare anche in un
-#     mondo caratterizzato da forti vincoli normativi, software legacy e un
-#     contesto culturale di stampo tradizionale.
-#     Discuteremo anche cosa stiamo imparando durante questo viaggio e come il
-#     percorso sta evolvendo man mano che lo percorriamo. In particolare
-#     stiamo vedendo davvero ""sulla nostra pelle"" quanto il DevOps sia un
-#     cambiamento culturale e di metodo e non solo di tecnologia. 
+-
+  speaker_id: gabriella-castelli
+  title: The Road to DevOps 
+  extract: >
+    Si può fare DevOps in una banca commerciale tradizionale?
+    Nel talk illustreremo l'approccio che abbiamo seguito per introdurre i
+    primi elementi di DevOps mostrando come è possibile cambiare anche in un
+    mondo caratterizzato da forti vincoli normativi, software legacy e un
+    contesto culturale di stampo tradizionale.
+    Discuteremo anche cosa stiamo imparando durante questo viaggio e come il
+    percorso sta evolvendo man mano che lo percorriamo. In particolare
+    stiamo vedendo davvero ""sulla nostra pelle"" quanto il DevOps sia un
+    cambiamento culturale e di metodo e non solo di tecnologia. 
 
 -
   speaker_id: francesco-degrassi
@@ -235,6 +235,37 @@
     in a high-pressure environment and national scrutiny.
 
 -
+  speaker_id: jacopo-nardiello
+  title: "Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you"
+  extract: >    
+    On Sept. 3rd, 2019, the M5S held a vote on the Rousseau Platform from
+    which was depending the whole country's political system and the current
+    government. The vote ended with over 100.000+ preferences, millions of
+    visiting users, tens of malevolent players reverse engineering your
+    stack, and all principal press offices closely observing the platform
+    behaviors.  In this talk, we will dive deep into the technical
+    architecture behind the new Rousseau Platform, based on AWS, Kubernetes
+    Fury and upstream Open Source Cloud Native components.  We will also
+    discuss and share our journey and lessons learned as operators working
+    in a high-pressure environment and national scrutiny.
+
+-
+  speaker_id: christian-laurini
+  title: "Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you"
+  extract: >    
+    On Sept. 3rd, 2019, the M5S held a vote on the Rousseau Platform from
+    which was depending the whole country's political system and the current
+    government. The vote ended with over 100.000+ preferences, millions of
+    visiting users, tens of malevolent players reverse engineering your
+    stack, and all principal press offices closely observing the platform
+    behaviors.  In this talk, we will dive deep into the technical
+    architecture behind the new Rousseau Platform, based on AWS, Kubernetes
+    Fury and upstream Open Source Cloud Native components.  We will also
+    discuss and share our journey and lessons learned as operators working
+    in a high-pressure environment and national scrutiny.
+
+
+-
   speaker_id: michele-sacchetti
   title: Tale of two cities, dark release in both REST and Message Driven ecosystem
   extract: >
@@ -344,10 +375,12 @@
 #       I stand that 0.12 is so powerful that you can create provider-agnostic
 #       modules and write code that works the same in GCP, AWS and Azure.
 
-# -
-#   speaker_id:
-#   title:
-#   extract: >
+-
+  speaker_id: floor-drees
+  title: "Open at Microsoft: what do VS Code, .NET, TypeScript and Git have in common?"
+  extract: >
+      The first Microsoft project released under an open source license was WIX... in 2004! The technology behemoth has come a long way since then. Today, Microsoft’s engineers maintain TypeScript, .NET, Windows Terminal, Dapr, Helm, and more than a thousand other projects. Did you know that with over 19k contributors, Visual Studio Code is the number 1 open source project by contributors? How does Microsoft's Open Source Program Office (OSPO) manage and support all that activity, and what is their recipe for scale?
+
 # -
 #   speaker_id:
 #   title:
