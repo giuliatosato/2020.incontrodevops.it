@@ -132,7 +132,7 @@
     tutti così com'è o adattabile anche con altri linguaggi di
     programmazione o framework.  In definitiva vorremo portare l'esempio
     della nostra azienda dove, pur non avendo una figura dedicata
-    esclusivamente ai processi specifici del DevOps usiamo ne usiamo
+    esclusivamente ai processi specifici del DevOps ne usiamo
     l'approccio coordinandoci tramite il nostro template.
 -
   speaker_id: marco-pracucci
@@ -220,7 +220,7 @@
     underline what and how is worth testing in production, and some
     recommended patterns for doing so, both at large and small scale.
 -
-  speaker_id: emanuel-mazzini
+  speaker_id: emanuel-mazzilli
   title: "Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you"
   extract: >    
     On Sept. 3rd, 2019, the M5S held a vote on the Rousseau Platform from
