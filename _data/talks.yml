@@ -220,7 +220,7 @@
     underline what and how is worth testing in production, and some
     recommended patterns for doing so, both at large and small scale.
 -
-  speaker_id: emanuel-mazzini
+  speaker_id: emanuel-mazzilli
   title: "Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you"
   extract: >    
     On Sept. 3rd, 2019, the M5S held a vote on the Rousseau Platform from
