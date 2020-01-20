@@ -163,14 +163,14 @@ list:
     last_name: Castelli
     twitter:     
 
-  # -
-  #   id: leonardo-didonato
-  #   description: >
+  -
+    id: leonardo-didonato
+    description: >
 
-  #   image: leonardo-didonato.jpg
-  #   first_name: Leonardo
-  #   last_name: Di Donato
-  #   twitter:   
+    image: leonardo-didonato.jpg
+    first_name: Leonardo
+    last_name: Di Donato
+    twitter:   
   -
     id: marco-tozzi
     description: >
@@ -189,14 +189,14 @@ list:
     last_name: Caltabiano
     twitter:   
 
-  # -
-  #   id: giulio-vian
-  #   description: >
-
-  #   image: giulio-vian.jpg
-  #   first_name: Giulio  
-  #   last_name: Vian
-  #   twitter:   
+  -
+    id: giulio-vian
+    description: >
+      MVP Visual Studio & ALM|DevOps Ranger, 25+ years experience on development, ALM and DevOps.
+    image: giulio-vian.png
+    first_name: Giulio  
+    last_name: Vian
+    twitter: giulio_vian  
 
   -
     id: alessandro-molari
