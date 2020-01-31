@@ -21,7 +21,10 @@ main:
     - 5 tickets with 50% discount
   max: 1
   list:
-
+    -
+      url: https://kireygroup.com?utm_source=idi2020
+      image: kirey.png
+      
 diamond:
   price: € 5,000
   offer:
@@ -39,6 +42,9 @@ diamond:
     -
       url: https://sighup.io/?utm_source=idi2020
       image: sighup.svg  
+    -
+      url: https://www.microsoft.com/?utm_source=idi2020
+      image: microsoft.svg
 
 platinum:
   price: € 3,000
@@ -54,14 +60,20 @@ platinum:
   max: 12
   list:
     -
+      url: https://www.biodec.it/?utm_source=idi2020
+      image: biodec.svg  
+    -
       url: https://www.flowing.it/?utm_source=idi2020
       image: flowing.svg
     -
-      url: https://www.biodec.it/?utm_source=idi2020
-      image: biodec.svg
+      url: https://www.newesis.com/?utm_source=idi2020
+      image: newesis.svg
     -
       url: https://repetitive.it/?utm_source=idi2020
       image: repetitive.svg
+    -
+      url: https:///www.suse.com/?utm_source=idi2020
+      image: suse.svg      
       
 gold:
   price: € 1,500
