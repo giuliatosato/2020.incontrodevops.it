@@ -2,7 +2,7 @@ list:
   -
     slug: progettare-evolvere-cloud-aws
     title: Progettare e sviluppare applicazioni Serverless con AWS
-    when: 5 Marzo 2020, Bologna
+    when: 5 Marzo 2020, Bologna. Ore 9:30-18:00
     where: Hotel Savoia Regency, Via del Pilastro 2, 40127, Bologna BO
     map: https://goo.gl/maps/pT6toDSe3Em
     ticket: /tickets.html
@@ -35,7 +35,7 @@ list:
   -
     slug: corso-ansible
     title: Corso Ansible
-    when: 5 Marzo 2020, Bologna
+    when: 5 Marzo 2020, Bologna. Ore 9:30-18:00
     where: Hotel Savoia Regency, Via del Pilastro 2, 40127, Bologna BO
     map: https://goo.gl/maps/pT6toDSe3Em
     ticket: /tickets.html
@@ -78,7 +78,7 @@ list:
   -
     slug: corso-kubernetes
     title: Gestire ambienti di produzione con Kubernetes
-    when: 5 Marzo 2020, Bologna
+    when: 5 Marzo 2020, Bologna. Ore 9:30-18:00
     where: Hotel Savoia Regency, Via del Pilasto 2, 40127, Bologna BO
     map: https://goo.gl/maps/pT6toDSe3Em
     ticket: /tickets.html
