@@ -63,6 +63,9 @@ platinum:
       url: https://www.biodec.it/?utm_source=idi2020
       image: biodec.svg  
     -
+      url: https://www.fattureincloud.it?utm_source=idi2020
+      image: fattureincloud.svg        
+    -
       url: https://www.flowing.it/?utm_source=idi2020
       image: flowing.svg
     -
@@ -72,8 +75,8 @@ platinum:
       url: https://repetitive.it/?utm_source=idi2020
       image: repetitive.svg
     -
-      url: https:///www.suse.com/?utm_source=idi2020
-      image: suse.svg      
+      url: https://www.suse.com/?utm_source=idi2020
+      image: suse.svg  
       
 gold:
   price: € 1,500
@@ -100,8 +103,12 @@ silver:
   max: 32
   list:
     -
+      url: https://italia.herzum.com/?utm_source=idi2020
+      image: herzum.svg
+    -
       url: https://labs.madisoft.it/devops-engineer/?utm_source=idi2020
-      image: madisoft.svg
+      image: madisoft.svg    
+      
 bronze:
   price: € 500
   offer:
@@ -110,3 +117,6 @@ bronze:
     - 2 tickets with 10% discount
   max: 64
   list:
+    -
+      url: https://stickermule.com/supports/grusp20-sponsorship
+      image: stickermule.svg    
