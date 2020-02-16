@@ -4,270 +4,227 @@ title: Schedule
 
 <div class="limit limit--top-margin">
 
-  {% include schedule/intro.html date='8 Marzo' %}
+  {% include schedule/intro.html date='6 Marzo' %}
 
-  <div class="schedule" data-dates="03-08">
+  <div class="schedule" data-dates="03-06">
     <table class="schedule__table">
       <thead>
-        {% include schedule/header.html tracks='4' %}
+        {% include schedule/header.html tracks='3' %}
       </thead>
       <tbody>
         {% include schedule/event.html time='9.00-9.30' title='Check-in' fill='true' %}
         {% include schedule/event.html time='9.30-9.40' title='Presentazione' fill='true' %}
-        {% include schedule/talk.html time='9.45-10.40' title='Microservices: when, why and how? Lessons learned at Wikimedia' fill='true' keynote='true' %}
+        {% include schedule/talk.html time='9.45-10.40' title='Inside Hotel California: how the Internet giants dominate through culture and technology' fill='true' keynote='true' %}
         {% include schedule/pause.html time='10.40-11.00' title='Coffee break' icon="coffee" fill='true' %}
 
         <tr>
-          {% include schedule/talk.html time='11.00-11.40' title='Putting the Dev back into DevOps, or, creating better software' %}
-          {% include schedule/talk.html title='Legacy code nel db. Dai \'Ruspant test\' a tSQLt.' %}
-          {% include schedule/talk.html title='Big data, not a Big Mess' %}
+          {% include schedule/talk.html time='11.00-11.40' title='The Road to DevOps' %}
+          {% include schedule/talk.html title='Serverless and containers are coming together: an AWS perspective' %}
+          {% include schedule/talk.html title='A Django project template with CI/CD pipelines and k8s orchestration' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='11.40-12.20' title='End-to-end CI/CD deployments of a containerized application using AWS services.' %}
-          {% include schedule/talk.html title='New Challenges for IT Service Monitoring' %}
-          {% include schedule/talk.html title='Scaling Ansible' %}
+          {% include schedule/talk.html time='11.40-12.20' title='It takes two to DevOps' %}
+          {% include schedule/talk.html title='Hacking Terraform for fun and profit' %}
+          {% include schedule/talk.html title='Cloud Native eBPF Instrumentation' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='12.20-13.00' title='What we learned as DevOps at OVH' %}
-          {% include schedule/talk.html title='Moving a Windows environment to the cloud' %}
-          {% include schedule/talk.html title='Testcontainers to the rescue' %}
-          {% include schedule/talk.html title='A come Artefatto' sponsor='true' %}
+          {% include schedule/talk.html time='12.20-13.00' title='How to write cloud-agnostic Terraform code' %}
+          {% include schedule/talk.html title='Open at Microsoft: what do VS Code, .NET, TypeScript and Git have in common?' %}
+          {% include schedule/talk.html title='Tale of two cities, dark release in both REST and Message Driven ecosystemß' %}
         </tr>
 
         {% include schedule/pause.html time='13.00-14.15' title='Lunch' icon="food" fill='true' %}
 
         <tr>
-          {% include schedule/talk.html  time='14.15-15.00' title='A Full Stack Journey to Reach Efficient Container Storage Cloning' %}
-          {% include schedule/talk.html  title='Lavorare con codice legacy non testabile' %}
-          {% include schedule/talk.html  title='Ansible & pgbackrest, the dynamic duo' %}
-          {% include schedule/talk.html  title='Application Services in CI/CD Pipelines, multi-cloud and micro-services environments' sponsor='true' %}
+          {% include schedule/talk.html  time='14.15-15.00' title='Da DevSecOps a SecDevOps: Security is not a matter of doors (and sometimes windows are broken)' %}
+          {% include schedule/talk.html  title='Testing in production for fun and profit' %}
+          {% include schedule/talk.html  title='Surviving microservices' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html  time='15.00-15.45' title='Team devops: a true story' %}
-          {% include schedule/talk.html  title='A tour of TSDB queries' %}
-          {% include schedule/talk.html  title='Introduzione a Traefik' %}
-          {% include schedule/talk.html  title='Keep CALM and build Karbon' sponsor='true' %}
+          {% include schedule/talk.html  time='15.00-15.45' title='IT Asset Management' %}
+          {% include schedule/talk.html  title='Scaling Prometheus with Cortex, one time series at a time' %}
+          {% include schedule/talk.html  title='tbd.' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='15.45-16.30' title='Ten years of Puppet installations: what now? Lessons learned, sane suggestions, outlook for the future' %}
-          {% include schedule/talk.html title='A monitoring solution for a distributed web application' %}
-          {% include schedule/talk.html title='Scaling Terraform: da Startup a Enterprise' %}
-          {% include schedule/talk.html title='Programmare Kubernetes: una introduzione alle tecniche per estendere e personalizzare la piattaforma.'  %}
+          {% include schedule/talk.html time='15.45-16.30' title='Tbd' %}
+          {% include schedule/talk.html title='Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you' %}
+          {% include schedule/talk.html title='tbd.' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='16.30-17.15' title='Managing incidents in microservices' %}
-          {% include schedule/talk.html title='Making serverless with servers: offering managed services in the datacenter' %}
-          {% include schedule/talk.html title='eBPF powered Distributed Kubernetes performance analysis' %}
+          {% include schedule/talk.html time='16.30-17.15' title='tbd.' %}
+          {% include schedule/talk.html title='tbd.' %}
+          {% include schedule/talk.html title='Write your own Kubernetes Operator using Ansible' %}
         </tr>
 
         <tr>
-          {% include schedule/talk.html time='17.15-18.00' title='Cloud from outer space Cronache di un sistema in trasformazione' %}
-          {% include schedule/talk.html title='Le 7 sfide da affrontare nella migrazione da monolite a miniservizi' %}
-          {% include schedule/talk.html title='The curious case of Jupyter notebooks as runbooks' %}
+          {% include schedule/talk.html time='17.15-18.00' title='tbd' %}
+          {% include schedule/talk.html title='tbd' %}
+          {% include schedule/talk.html title='tbd' %}
         </tr>
 
       </tbody>
     </table>
   </div>
 
-  <div class="schedule schedule--mobile" data-dates="03-08">
+  <div class="schedule schedule--mobile" data-dates="03-06">
     <table class="schedule__table">
       <thead>
       {% include schedule/header.html track='1' %}
       </thead>
       <tbody>
-      {% include schedule/event.html time='9.00-9.30' title='Check-in' fill='true' %}
-      {% include schedule/event.html time='9.30-9.40' title='Presentazione' fill='true' %}
+      
+        {% include schedule/event.html time='9.00-9.30' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='9.30-9.40' title='Presentazione' fill='true' %}
+        {% include schedule/talk.html time='9.45-10.40' title='Inside Hotel California: how the Internet giants dominate through culture and technology' fill='true' keynote='true' %}
+        {% include schedule/pause.html time='10.40-11.00' title='Coffee break' icon="coffee" fill='true' %}
 
-      <tr>
-        {% include schedule/talk.html time='9.45-10.40' title='Microservices: when, why and how? Lessons learned at Wikimedia' keynote='true' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='11.00-11.40' title='The Road to DevOps' %}
+        </tr>
 
-      {% include schedule/pause.html time='10.40-11.00' title='Coffee break' icon="coffee" fill='true' %}
+        <tr>
+          {% include schedule/talk.html time='11.40-12.20' title='It takes two to DevOps' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='11.00-11.40' title='Putting the Dev back into DevOps, or, creating better software' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='12.20-13.00' title='How to write cloud-agnostic Terraform code' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='11.40-12.20' title='End-to-end CI/CD deployments of a containerized application using AWS services.' %}
-      </tr>
+        {% include schedule/pause.html time='13.00-14.15' title='Lunch' icon="food" fill='true' %}
 
-      <tr>
-        {% include schedule/talk.html time='12.20-13.00' title='What we learned as DevOps at OVH' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html  time='14.15-15.00' title='Da DevSecOps a SecDevOps: Security is not a matter of doors (and sometimes windows are broken)' %}
+        </tr>
 
-      {% include schedule/pause.html time='13.00-14.15' title='Lunch' icon="food" fill='true' %}
+        <tr>
+          {% include schedule/talk.html  time='15.00-15.45' title='IT Asset Management' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html  time='14.15-15.00' title='A Full Stack Journey to Reach Efficient Container Storage Cloning' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='15.45-16.30' title='Tbd' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html  time='15.00-15.45' title='Team devops: a true story' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='16.30-17.15' title='tbd.' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='15.45-16.30' title='Ten years of Puppet installations: what now? Lessons learned, sane suggestions, outlook for the future' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='17.15-18.00' title='tbd' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='16.30-17.15' title='Managing incidents in microservices' %}
-      </tr>
-
-      <tr>
-        {% include schedule/talk.html time='17.15-18.00' title='Cloud from outer space Cronache di un sistema in trasformazione' %}
-      </tr>
-
-
+      
       </tbody>
     </table>
   </div>
 
-  <div class="schedule schedule--mobile" data-dates="03-08">
+  <div class="schedule schedule--mobile" data-dates="03-06">
     <table class="schedule__table">
       <thead>
         {% include schedule/header.html track='2' %}
       </thead>
       <tbody>
-      {% include schedule/event.html time='9.00-9.30' title='Check-in' fill='true' %}
-      {% include schedule/event.html time='9.30-9.40' title='Presentazione' fill='true' %}
+        {% include schedule/event.html time='9.00-9.30' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='9.30-9.40' title='Presentazione' fill='true' %}
+        {% include schedule/talk.html time='9.45-10.40' title='Inside Hotel California: how the Internet giants dominate through culture and technology' fill='true' keynote='true' %}
+        {% include schedule/pause.html time='10.40-11.00' title='Coffee break' icon="coffee" fill='true' %}
 
-      <tr>
-        {% include schedule/talk.html time='9.45-10.40' title='Microservices: when, why and how? Lessons learned at Wikimedia' keynote='true' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='11.00-11.40' title='Serverless and containers are coming together: an AWS perspective' %}
+        </tr>
 
-      {% include schedule/pause.html time='10.40-11.00' title='Coffee break' icon="coffee" fill='true' %}
+        <tr>
+          {% include schedule/talk.html time='11.40-12.20'  title='Hacking Terraform for fun and profit' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='11.00-11.40' title='Legacy code nel db. Dai \'Ruspant test\' a tSQLt' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='12.20-13.00' title='Open at Microsoft: what do VS Code, .NET, TypeScript and Git have in common?' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='11.40-12.20' title='New Challenges for IT Service Monitoring' %}
-      </tr>
+        {% include schedule/pause.html time='13.00-14.15' title='Lunch' icon="food" fill='true' %}
 
-      <tr>
-        {% include schedule/talk.html time='12.20-13.00' title='Moving a Windows environment to the cloud' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html  time='14.15-15.00' title='Testing in production for fun and profit' %}
+        </tr>
 
-      {% include schedule/pause.html time='13.00-14.15' title='Lunch' icon="food" fill='true' %}
+        <tr>
+          {% include schedule/talk.html  time='15.00-15.45' title='Scaling Prometheus with Cortex, one time series at a time' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html  time='14.15-15.00' title='Lavorare con codice legacy non testabile' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='15.45-16.30' title='Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html  time='15.00-15.45' title='A tour of TSDB queries' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='16.30-17.15' title='tbd.' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='15.45-16.30' title='A monitoring solution for a distributed web application' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='17.15-18.00' title='tbd' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='16.30-17.15' title='Making serverless with servers: offering managed services in the datacenter' %}
-      </tr>
-
-      <tr>
-        {% include schedule/talk.html time='17.15-18.00' title='Le 7 sfide da affrontare nella migrazione da monolite a miniservizi' %}
-      </tr>
+      
       </tbody>
     </table>
   </div>
 
 
-  <div class="schedule schedule--mobile" data-dates="03-08">
+  <div class="schedule schedule--mobile" data-dates="03-06">
     <table class="schedule__table">
       <thead>
       {% include schedule/header.html track='3' %}
       </thead>
       <tbody>
-      {% include schedule/event.html time='9.00-9.30' title='Check-in' fill='true' %}
-      {% include schedule/event.html time='9.30-9.40' title='Presentazione' fill='true' %}
+        {% include schedule/event.html time='9.00-9.30' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='9.30-9.40' title='Presentazione' fill='true' %}
+        {% include schedule/talk.html time='9.45-10.40' title='Inside Hotel California: how the Internet giants dominate through culture and technology' fill='true' keynote='true' %}
+        {% include schedule/pause.html time='10.40-11.00' title='Coffee break' icon="coffee" fill='true' %}
 
-      <tr>
-        {% include schedule/talk.html time='9.45-10.40' title='Microservices: when, why and how? Lessons learned at Wikimedia' keynote='true' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='11.00-11.40' ttitle='A Django project template with CI/CD pipelines and k8s orchestration' %}
+        </tr>
 
-      {% include schedule/pause.html time='10.40-11.00' title='Coffee break' icon="coffee" fill='true' %}
+        <tr>
+          {% include schedule/talk.html time='11.40-12.20' title='Cloud Native eBPF Instrumentation' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='11.00-11.40' title='Big data, not a Big Mess' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='12.20-13.00' title='Tale of two cities, dark release in both REST and Message Driven ecosystemß' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='11.40-12.20' title='Scaling Ansible' %}
-      </tr>
+        {% include schedule/pause.html time='13.00-14.15' title='Lunch' icon="food" fill='true' %}
 
-      <tr>
-        {% include schedule/talk.html time='12.20-13.00' title='Testcontainers to the rescue' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html  time='14.15-15.00' title='Surviving microservices' %}
+        </tr>
 
-      {% include schedule/pause.html time='13.00-14.15' title='Lunch' icon="food" fill='true' %}
+        <tr>
+          {% include schedule/talk.html  time='15.00-15.45' title='tbd.' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html  time='14.15-15.00' title='Ansible & pgbackrest, the dynamic duo' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='15.45-16.30' title='Tbd' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html  time='15.00-15.45' title='Introduzione a Traefik' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='16.30-17.15' title='Write your own Kubernetes Operator using Ansible' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='15.45-16.30' title='Scaling Terraform: da Startup a Enterprise' %}
-      </tr>
+        <tr>
+          {% include schedule/talk.html time='17.15-18.00' title='tbd' %}
+        </tr>
 
-      <tr>
-        {% include schedule/talk.html time='16.30-17.15' title='eBPF powered Distributed Kubernetes performance analysis' %}
-      </tr>
-
-      <tr>
-        {% include schedule/talk.html time='17.15-18.00' title='The curious case of Jupyter notebooks as runbooks' %}
-      </tr>
-
+      
       </tbody>
     </table>
   </div>
 
 
-  <div class="schedule schedule--mobile" data-dates="03-08">
-    <table class="schedule__table">
-      <thead>
-      {% include schedule/header.html track='4' %}
-      </thead>
-      <tbody>
-
-      <tr>
-        {% include schedule/talk.html time='11.00-12.20' title='t.b.d.' %}
-      </tr>
-
-      <tr>
-        {% include schedule/talk.html time='12.20-13.00' title='A come Artefatto' sponsor='true' %}
-      </tr>
-
-      {% include schedule/pause.html time='13.00-14.15' title='Lunch' icon="food" fill='true' %}
-
-      <tr>
-        {% include schedule/talk.html  time='14.15-15.00' title='Application Services in CI/CD Pipelines, multi-cloud and micro-services environments' sponsor='true' %}
-      </tr>
-
-      <tr>
-        {% include schedule/talk.html  time='15.00-15.45' title='Keep CALM and build Karbon' sponsor='true' %}
-      </tr>
-
-      <tr>
-        {% include schedule/talk.html time='15.45-16.30' title='Programmare Kubernetes: una introduzione alle tecniche per estendere e personalizzare la piattaforma.'  %}
-      </tr>
-
-      </tbody>
-    </table>
-  </div>
+  
 </div>
 
 {% include index/newsletter.html %}
