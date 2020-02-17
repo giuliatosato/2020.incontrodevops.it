@@ -381,22 +381,82 @@
   extract: >
       The first Microsoft project released under an open source license was WIX... in 2004! The technology behemoth has come a long way since then. Today, Microsoft’s engineers maintain TypeScript, .NET, Windows Terminal, Dapr, Helm, and more than a thousand other projects. Did you know that with over 19k contributors, Visual Studio Code is the number 1 open source project by contributors? How does Microsoft's Open Source Program Office (OSPO) manage and support all that activity, and what is their recipe for scale?
 
-# -
-#   speaker_id:
-#   title:
-#   extract: >
-# -
-#   speaker_id:
-#   title:
-#   extract: >
-# -
-#   speaker_id:
-#   title:
-#   extract: >
-# -
-#   speaker_id:
-#   title:
-#   extract: >
+-
+  speaker_id: andrea-tosatto
+  title: Effective GitOps with Ansible
+  extract: >
+      "Initially advocated by WeaveWorks in the context of cloud native
+      applications delivery, the GitOps approach promises to streamline
+      applications and infrastructures delivery promoting a Git-centric
+      approach to applications and configuration mangement.  While GitOps is
+      seeing a growing interest and adoption in the Kubernetes community with
+      the help of tools such as Argo and Flux, there is a lack of tooling and
+      literature describing how this approach can be extended to the broader
+      configuration management environment and traditional infrastructures.
+      The goal of this talk is to explore how GitOps relates to traditional
+      configuration management and how this can be effectively implemented by
+      DevOps teams to streamline the delivery of Ansible-managed
+      infrastructures and applications."
+
+-
+  speaker_id: lars-bendix
+  title: What SCM is useful and necessary on DevOps projects?
+  extract: >
+      "Software Configuration Management (SCM) is an important
+      foundation for any type of project to work in a smooth and successful
+      way. So there is no reason that SCM shouldn't be useful and necessary
+      also on DevOps projects However, all projects are not alike and there is
+      no single “one size fits all” SCM that will work in all contexts and for
+      all development methods. SCM has well-established practices for more
+      traditional ways of development, but very little is known about what SCM
+      is needed and how it should be carried out in a DevOps context.  DevOps
+      projects probably need SCM done in different ways than “traditional”
+      projects - and operationally by different (non-SCM) people. The
+      difficult thing is not the concepts and principles of SCM - but to
+      figure out what part of them can be helpful in different situations and
+      in which way they should be implemented.  As SCM experts - with a DevOps
+      interest - we decided to investigate more closely how to match up SCM
+      with DevOps. There is already some knowledge about how to do SCM in
+      DevOps contexts, but it is fragmented and scattered around - and it is
+      incomplete. We have researched “prior art” to collect existing wisdom.
+      We have also analysed DevOps and SCM to identify areas where we could
+      complete the existing knowledge.  In this presentation, we will present
+      and discuss our findings so far."
+
+
+-
+  speaker_id: matteo-castellani
+  title: Una infrastruttura certificata PCI-DSS
+  extract: >
+    "Realizzazione di una infrastruttura per accettare pagamenti online, certificata PCI-DSS e realizzata al 100% su AWS Public Cloud.
+      - Intro<br>
+      - Cos'è PCI-DSS<br>
+      - Filosofoa del Team DevOps<br>
+      - AWS Account Set-up e Logs<br>
+      - AWS Accounts Humans VS BOTS<br>
+      - AWS Accounts Uso dei tag per moltiplicare gli ambienti di sviluppo<br>
+      - Anatomia del Micro-Service (REST)<br>
+      - Immutable Images & Image Sharing (NOW WITH TAGS!)<br>
+      - Shared Services: servizi e task<br>
+      - Server Image da CentOS fino a Produzione<br>
+      - Q&A<br>
+      "
+
+-
+  speaker_id: claudio-bartoli
+  title: Data science from lab to production
+  extract: >
+    "Vorrei raccontare l’esperienza vissuta come Data Engineer in un team di
+    data scientist, dove le competenze matematiche e statistiche sono molto
+    elevate, ma non si può dire lo stesso per quella sistemistica e la cura
+    (e replicabilità) degli ambienti.  L’esperienza (in ambito python) ci ha
+    permesso di eseguire l’ambiente in locale e CI (con docker) in
+    produzione su cluster AWS EMR.  Il taglio del talk sarebbe molto
+    esperienziale, su quelle che sono le dinamiche su team MOLTO eterogenei
+    e sulla replicabilità delle dipendenze python (tramite pyenv e pipenv) e
+    di sistema (librerie native) per poter replicare gli ambienti sulle
+    varie piattaforme."
+
 # -
 #   speaker_id:
 #   title:

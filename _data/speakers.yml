@@ -207,38 +207,43 @@ list:
     last_name: Drees
     twitter: floordrees
 
-  # -
-  #   id: 
-  #   description: >
+  -
+    id: andrea-tosatto
+    description: >
+      I spend most of my time writing YAML and waiting for things to happen. Currently working at @powerdns and @openexchange.
+    image: andrea-tosatto.jpg
+    first_name: Andrea
+    last_name: Tosatto
+    twitter: _hilbert_
 
-  #   image: 
-  #   first_name: 
-  #   last_name: 
-  #   twitter:   
-  # -
-  #   id: 
-  #   description: >
+  -
+    id: lars-bendix
+    description: >
+      Lars Bendix is a professor of software engineering at Lund University in Sweden and an administrator of the Scandinavian Network of Excellence in Software Configuration Management. He has spent most of his academic career doing research in Configuration Management together with various industrial partners, and has taught one of the few academic courses in Configuration Management to hundreds of students. For almost two decades he has also been heavily involved with his department’s agile activities.
+    image: lars-bendix.jpg
+    first_name: Lars 
+    last_name: Bendix
+    twitter:   
+  
+  -
+    id: matteo-castellani
+    description: 
+    image: matteo-castellani.jpg
+    first_name: Matteo 
+    last_name: Castellani
+    twitter:   
 
-  #   image: 
-  #   first_name: 
-  #   last_name: 
-  #   twitter:   
-  # -
-  #   id: 
-  #   description: >
+  -
+    id: claudio-bartoli
+    description: >
+      I'm Claudio and I'm a software developer. I am growed up in a farmland background and i love to handle first-hand all the things around me: in example I do carpentry work in my house: in general I'm handy and geek. I love friends, and spend a great time with them.
+    image: claudio-bartoli.jpg
+    first_name: Claudio 
+    last_name: Bartoli
+    twitter:   
 
-  #   image: 
-  #   first_name: 
-  #   last_name: 
-  #   twitter:   
-  # -
-  #   id: 
-  #   description: >
 
-  #   image: 
-  #   first_name: 
-  #   last_name: 
-  #   twitter:   
+
   # -
   #   id: 
   #   description: >
