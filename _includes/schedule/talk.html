@@ -35,7 +35,7 @@
               {% for speaker in site.data.speakers.list %}
                 {% if speaker.id == current_speaker_id %}
                   <span class="schedule__speaker">
-                    {{ speaker.first_name }} {{ speaker.last_name }}
+                    <a href="/talks.html#{{speaker.id}}" class="schedule__speaker">{{ speaker.first_name }} {{ speaker.last_name }}</a>
                   </span>
                   {% if include.sponsor %}<p>{{ speaker.description }}</p>{% endif %}
                 {% endif %}
@@ -45,7 +45,7 @@
             {% for speaker in site.data.speakers.list %}
             {% if speaker.id == speaker_id %}
               <span class="schedule__speaker {% if include.sponsor %}schedule__sponsor{% endif %}">
-                {{ speaker.first_name }} {{ speaker.last_name }}
+                <a href="/talks.html#{{speaker.id}}" class="schedule__speaker">{{ speaker.first_name }} {{ speaker.last_name }}</a>
               </span>
               {% if include.sponsor %}<p>{{ speaker.description }}</p>{% endif %}
               {% break %}
