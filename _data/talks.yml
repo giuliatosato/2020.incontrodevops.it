@@ -450,23 +450,23 @@
     di sistema (librerie native) per poter replicare gli ambienti sulle
     varie piattaforme."
     
- -
-   speaker_id: alessandro-scuderetti
-   title: "Continuous Delivery su Database in contesto Enterprise: sfide tecniche e organizzative"
-   extract: >
-     Nel percorso DevOps di automazione e controllo dell'intera filiera di produzione del software, Banca Mediolanum sviluppa una pipeline
-     di continuous delivery su database. L’intervento racconta l’esperienza vissuta in un progetto di automazione del processo di rilascio del
-     software su database, problematiche e benefici ottenuti in termini di efficienza e sostenibilità di processi legati al governo dei dati quali 
-     “privacy by design”. Ecco i temi trattati:
-     * Contesto organizzativo, di processo e tecnico di partenza
-     * Definizione nuovo processo di design, sviluppo e rilascio
-     * Soluzione tecnica: modello di branching, versionamento, Erwin, Flyway,
-       Jenkins Pipeline, Git, Maven, Artifactory, Mattermost, Hashicorp Vault
-       e Consul, custom tool
-     * Mitigazione dei rischi di cambiamento: visibilità, collaborazione,
-       condivisione
-     * Gdpr e privacy by design
-     * Benefici ottenuti, “lesson learned” e prossimi passi
+-
+  speaker_id: alessandro-scuderetti
+  title: "Continuous Delivery su Database in contesto Enterprise: sfide tecniche e organizzative"
+  extract: >
+   Nel percorso DevOps di automazione e controllo dell'intera filiera di produzione del software, Banca Mediolanum sviluppa una pipeline
+   di continuous delivery su database. L’intervento racconta l’esperienza vissuta in un progetto di automazione del processo di rilascio del
+   software su database, problematiche e benefici ottenuti in termini di efficienza e sostenibilità di processi legati al governo dei dati quali
+   “privacy by design”. Ecco i temi trattati:
+   * Contesto organizzativo, di processo e tecnico di partenza
+   * Definizione nuovo processo di design, sviluppo e rilascio
+   * Soluzione tecnica: modello di branching, versionamento, Erwin, Flyway,
+     Jenkins Pipeline, Git, Maven, Artifactory, Mattermost, Hashicorp Vault
+     e Consul, custom tool
+   * Mitigazione dei rischi di cambiamento: visibilità, collaborazione,
+     condivisione
+   * Gdpr e privacy by design
+   * Benefici ottenuti, “lesson learned” e prossimi passi
 
 # -
 #   speaker_id:
