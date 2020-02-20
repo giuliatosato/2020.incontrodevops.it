@@ -31,7 +31,7 @@
               Talks
             </a>
             {% endif %}
-          {% unless %}
+          {% endunless %}
           {% if site.data.conference.schedule_available %}
           <a href="{{ site.baseurl }}/schedule.html" class="button">
             Programma
@@ -54,7 +54,7 @@
           <a href="{{ site.baseurl }}/coc.html" class="button button--no-tablet-small">
             CoC
           </a>
-          {% unless %}
+          {% endunless %}
           {% if site.data.tickets.sold_out %}
             <div class="button button--sold-out">
               sold out
