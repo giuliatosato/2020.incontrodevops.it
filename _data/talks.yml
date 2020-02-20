@@ -426,21 +426,14 @@
 
 -
   speaker_id: matteo-castellani
-  title: Una infrastruttura certificata PCI-DSS
+  title: Un Castello di Carte (di Credito) tra le Nuvole
   extract: >
-    "Realizzazione di una infrastruttura per accettare pagamenti online, certificata PCI-DSS e realizzata al 100% su AWS Public Cloud.
-      - Intro<br>
-      - Cos'è PCI-DSS<br>
-      - Filosofoa del Team DevOps<br>
-      - AWS Account Set-up e Logs<br>
-      - AWS Accounts Humans VS BOTS<br>
-      - AWS Accounts Uso dei tag per moltiplicare gli ambienti di sviluppo<br>
-      - Anatomia del Micro-Service (REST)<br>
-      - Immutable Images & Image Sharing (NOW WITH TAGS!)<br>
-      - Shared Services: servizi e task<br>
-      - Server Image da CentOS fino a Produzione<br>
-      - Q&A<br>
-      "
+    PCI-DSS è un acronimo che sta per “Payment Card Industry - Data Security Standard” ed in UK rappresenta il modello legale da soddisfare se si
+    decide di gestire autonomamente il proprio sistema di pagamenti online. 
+    In questo talk racconterò le strategie che io ed il mio team abbiamo messo a punto per realizzare uno dei primi sistemi di pagamento,
+    certificati PCI-DSS di primo livello, hostato interamente in AWS public cloud.
+    Racconterò di come Dev ed Ops abbiano lavorato assieme, descriverò l’architettura dell’infrastruttura, il tipo di automazioni e quali gli
+    accorgimenti  utilizzati per la realizzazione della piattaforma.
 
 -
   speaker_id: claudio-bartoli
@@ -456,11 +449,25 @@
     e sulla replicabilità delle dipendenze python (tramite pyenv e pipenv) e
     di sistema (librerie native) per poter replicare gli ambienti sulle
     varie piattaforme."
+    
+ -
+   speaker_id: alessandro-scuderetti
+   title: Continuous Delivery su Database in contesto Enterprise: sfide tecniche e organizzative
+   extract: >
+     "Nel percorso DevOps di automazione e controllo dell'intera filiera di produzione del software, Banca Mediolanum sviluppa una pipeline
+     di continuous delivery su database. L’intervento racconta l’esperienza vissuta in un progetto di automazione del processo di rilascio del
+     software su database, problematiche e benefici ottenuti in termini di efficienza e sostenibilità di processi legati al governo dei dati quali 
+     “privacy by design”. Ecco i temi trattati:
+     * Contesto organizzativo, di processo e tecnico di partenza
+     * Definizione nuovo processo di design, sviluppo e rilascio
+     * Soluzione tecnica: modello di branching, versionamento, Erwin, Flyway,
+       Jenkins Pipeline, Git, Maven, Artifactory, Mattermost, Hashicorp Vault
+       e Consul, custom tool
+     * Mitigazione dei rischi di cambiamento: visibilità, collaborazione,
+       condivisione
+     * Gdpr e privacy by design
+     * Benefici ottenuti, “lesson learned” e prossimi passi"
 
-# -
-#   speaker_id:
-#   title:
-#   extract: >
 # -
 #   speaker_id:
 #   title:
