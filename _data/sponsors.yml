@@ -108,12 +108,9 @@ silver:
     -
       url: https://labs.madisoft.it/devops-engineer/?utm_source=idi2020
       image: madisoft.svg  
-      
     -
       url: https://www.workwave.com/?utm_source=idi2020
-      image: workwave.svg  
-      
-      
+      image: workwave.svg
       
 bronze:
   price: € 500
