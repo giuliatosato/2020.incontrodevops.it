@@ -25,11 +25,13 @@
             Workshop
           </a>
           {% endif %}
-          {% if site.data.conference.talks_available %}
-          <a href="{{ site.baseurl }}/talks.html" class="button">
-            Talks
-          </a>
-          {% endif %}
+          {% unless site.data.conference.schedule_available %}
+            {% if site.data.conference.talks_available %}
+            <a href="{{ site.baseurl }}/talks.html" class="button">
+              Talks
+            </a>
+            {% endif %}
+          {% endunless %}
           {% if site.data.conference.schedule_available %}
           <a href="{{ site.baseurl }}/schedule.html" class="button">
             Programma
@@ -48,9 +50,11 @@
             Sponsor
           </a>
           {% endif %}
+          {% unless site.data.conference.schedule_available %}
           <a href="{{ site.baseurl }}/coc.html" class="button button--no-tablet-small">
             CoC
           </a>
+          {% endunless %}
           {% if site.data.tickets.sold_out %}
             <div class="button button--sold-out">
               sold out

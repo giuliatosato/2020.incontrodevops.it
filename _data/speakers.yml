@@ -242,16 +242,14 @@ list:
     last_name: Bartoli
     twitter:   
 
-
-
-  # -
-  #   id: 
-  #   description: >
-
-  #   image: 
-  #   first_name: 
-  #   last_name: 
-  #   twitter:   
+  -
+    id: alessandro-scuderetti
+    description: 
+    image: alessandro-scuderetti.jpg
+    first_name: Alessandro 
+    last_name: Scuderetti
+    twitter:   
+    
   # -
   #   id: 
   #   description: >
