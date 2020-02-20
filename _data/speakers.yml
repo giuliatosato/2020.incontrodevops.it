@@ -244,10 +244,10 @@ list:
 
    -
      id: alessandro-scuderetti
-     description: >
+     description:
      image: alessandro-scuderetti.jpg
-     first_name: Alessandro Scuderetti
-     last_name: Alessandro Scuderetti
+     first_name: Alessandro
+     last_name: Scuderetti
      twitter:   
      
   # -
