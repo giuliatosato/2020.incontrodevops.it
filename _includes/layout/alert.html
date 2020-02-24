@@ -40,7 +40,8 @@
 </div>
 
 <script type="text/javascript">
-    document.getElementById('close').onclick = function close() {
+    document.getElementById('close').onclick = function close(e) {
+        e.preventDefault();
         document.getElementById('alert').style = "display: none;";
     }
 </script>
