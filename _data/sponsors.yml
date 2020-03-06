@@ -113,7 +113,7 @@ silver:
       image: workwave.svg
     -
       url: http://www.ynap.com/?utm_source=idi2020
-      image: ynap.svg      
+      image: ynap.png
       
 bronze:
   price: € 500
