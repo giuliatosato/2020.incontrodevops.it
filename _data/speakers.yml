@@ -250,14 +250,19 @@ list:
     last_name: Scuderetti
     twitter:   
     
-  # -
-  #   id: 
-  #   description: >
+  -
+    id: giacomo-tonucci
+    description: >
+        Giacomo joined IKS now Kirey Group in May 2017 after more than 10years of experience in IT Consulting in which he covered 
+         several different roles, from Software Developer to System Administrator. Giacomo developed a deep knowledge in Middleware 
+         and Web Architectures working in several System Integration projects for Banks and Insurance Companies. 
+         He has also a wide knowledge in Software Development, Change Management and System Administration.
+         In the last three years he was involved as a Senior Consultant and Solution Architect in several projects regarding containerization, log management and application monitoring
+    image: giacomo-tonucci.jpg
+    first_name: Giacomo
+    last_name: Tonucci
+    twitter:   
 
-  #   image: 
-  #   first_name: 
-  #   last_name: 
-  #   twitter:   
   # -
   #   id: 
   #   description: >

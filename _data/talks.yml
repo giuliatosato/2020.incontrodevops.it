@@ -468,7 +468,17 @@
    * Gdpr e privacy by design
    * Benefici ottenuti, “lesson learned” e prossimi passi
 
+-
+  speaker_id: giacomo-tonucci
+  title: Introduzione alla Service Mesh per DevOps
+  extract: >    
+    Dopo aver adottato gli orchestratori di container, i microservizi e aver industrializzato i ltutto tramite le pipeline CI/CD, 
+    il prossimo collo di bottiglia potrebbe essere la pubblicazione dei servizi ed il controllo delle loro comunicazioni.
+    Per superare questi limiti potrebbe essere necessario introdurre in azienda una Service Mesh. 
+    La Service Mesh offre osservabilità, resilienza, controllo del traffico e sicurezza per le comunicazioni tra servizi distribuiti, 
+    aggiungendo un disaccoppiamento tra il codice applicativo(Dev) e le preoccupazioni a livello di servizio e gestione delle sessioni (Ops)
+
 # -
-#   speaker_id:
+#   speaker_id: 
 #   title:
 #   extract: >    
