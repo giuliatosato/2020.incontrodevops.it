@@ -71,10 +71,10 @@ list:
       - 16:00 Break
       - 18:00 Conclusione
     addressed_info: |
-      Il corso si applica a tutti, ma è bene avere una confidenza di base con la shell Bash – si lavorerà su una macchina Vagrant Debian.
+      Il corso è aperto a tutti/e, ma è bene avere una confidenza di base con la shell Bash – si lavorerà su una macchina Vagrant Debian.
     useful_info: |
       La durata del corso è di una giornata e **si terrà Mercoledì 21 Ottobre 2020** (il giorno prima della conferenza).
-      È responsabilità del partecipante arrivare con portatile configurato e funzionante con Vagrant. Vi daremo tutte le indicazioni utili per la configurazione.
+      È responsabilità di chi partecipa arrivare con portatile configurato e funzionante con Vagrant. Vi daremo tutte le indicazioni utili per la configurazione.
   -
     slug: corso-kubernetes
     title: Gestire ambienti di produzione con Kubernetes
