@@ -68,9 +68,9 @@ platinum:
     -
       url: https://www.flowing.it/?utm_source=idi2020
       image: flowing.svg
-    -
-      url: https://www.newesis.com/?utm_source=idi2020
-      image: newesis.svg
+#    -
+#      url: https://www.newesis.com/?utm_source=idi2020
+#      image: newesis.svg
     -
       url: https://repetitive.it/?utm_source=idi2020
       image: repetitive.svg
