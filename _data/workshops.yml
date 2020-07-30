@@ -2,9 +2,9 @@ list:
   -
     slug: progettare-evolvere-cloud-aws
     title: Progettare e sviluppare applicazioni Serverless con AWS
-    when: 21 Ottobre 2020, Bologna. Ore 9:30-18:00
-    where: Hotel Savoia Regency, Via del Pilastro 2, 40127, Bologna BO
-    map: https://goo.gl/maps/pT6toDSe3Em
+    when: data da definire 
+    where: luogo da definire
+    map: 
     ticket: /tickets.html
     partner:
       name: flowing
@@ -29,15 +29,15 @@ list:
     addressed_info: |
       Alla fine del corso saprai disegnare e implementare software in ambiente serverless, comprendendo sia le dinamiche tecniche che la struttura dei costi.
     useful_info: |
-      La durata del corso è di una giornata e **si terrà Mercoledì 21 Ottobre 2020** (il giorno prima della conferenza).
-      Qualche giorno prima del corso verrà fornito un voucer di accesso ai servizi AWS a tutti i partecipanti.
+      La durata del corso è di una giornata. 
+      Qualche giorno prima del corso verrà fornito un voucher di accesso ai servizi AWS a tutti i partecipanti.
       È responsabilità del partecipante arrivare con portatile configurato e funzionante. Vi daremo tutte le indicazioni utili per la configurazione.
   -
     slug: corso-ansible
     title: Corso Ansible
-    when: 21 Ottobre 2020, Bologna. Ore 9:30-18:00
-    where: Hotel Savoia Regency, Via del Pilastro 2, 40127, Bologna BO
-    map: https://goo.gl/maps/pT6toDSe3Em
+    when: Data da definire. Ore 9:30-18:00
+    where: Bologna     
+    map: 
     ticket: /tickets.html
     partner:
       name: biodec
@@ -73,14 +73,14 @@ list:
     addressed_info: |
       Il corso è aperto a tutti/e, ma è bene avere una confidenza di base con la shell Bash – si lavorerà su una macchina Vagrant Debian.
     useful_info: |
-      La durata del corso è di una giornata e **si terrà Mercoledì 21 Ottobre 2020** (il giorno prima della conferenza).
+      La durata del corso è di una giornata.
       È responsabilità di chi partecipa arrivare con portatile configurato e funzionante con Vagrant. Vi daremo tutte le indicazioni utili per la configurazione.
   -
     slug: corso-kubernetes
     title: Gestire ambienti di produzione con Kubernetes
-    when: 21 Ottobre 2020, Bologna. Ore 9:30-18:00
-    where: Hotel Savoia Regency, Via del Pilasto 2, 40127, Bologna BO
-    map: https://goo.gl/maps/pT6toDSe3Em
+    when: Lunedì 12 e Mercoledì 14 Ottobre 2020 (4+4 ore) 
+    where: Aula virtuale 
+    map: 
     ticket: /tickets.html
     partner:
       name: sighup
@@ -108,7 +108,7 @@ list:
     addressed_info: |
       Alla fine del corso ogni partecipante saprà gestire applicazioni su Kubernetes e avrà sperimentato, con un approccio hands-on, le features di Kubernetes utili per gestire applicazioni in produzione.
     useful_info: |
-       La durata del corso è di una giornata e si terrà Mercoledì 21 Ottobre 2020 (il giorno prima della conferenza). È responsabilità del partecipante arrivare con portatile configurato e funzionante. Qualche giorno prima del corso verranno fornite ulteriori istruzioni per configurare ed installare le applicazioni necessarie.
+       La durata del corso è di 8 ore e **si terrà ONLINE, in aula virtuale, Lunedì 12 e Mercoledì 14 Ottobre 2020**. È responsabilità del partecipante arrivare con portatile configurato e funzionante. Qualche giorno prima del corso verranno fornite ulteriori istruzioni per configurare ed installare le applicazioni necessarie.
 
 
   # -
