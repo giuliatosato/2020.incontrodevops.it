@@ -2,34 +2,32 @@ list:
   -
     slug: progettare-evolvere-cloud-aws
     title: Progettare e sviluppare applicazioni Serverless con AWS
-    when: data da definire 
-    where: luogo da definire
+    when: Giovedì 15 e Venerdì 16 Ottobre 2020 
+    where: online
     map: 
     ticket: /tickets.html
     partner:
-      name: flowing
-      link: https://www.flowing.it
+      name: sparkfabrik
+      link: https://www.sparkfabrik.com/it/
     teacher:
       -
-        name: Paolo Tonin
-        picture: paolo-tonin.jpg
-        bio: AWS Certified DevOPS at Flowing
-        link: https://www.flowing.it
+        name: 
+        picture: 
+        bio: 
+        link: https://www.sparkfabrik.com/it/
     intro: |
-      L’approccio moderno al ciclo di vita del software in ambiente serverless può portare notevoli benefici al business come ad esempio efficientamento sui costi di esercizio, scalabilità, agilità e abilitare lo sviluppo poliglotto. Abbiamo pensato e disegnato questo workshop per aiutare architetti software, solution architect e figure devops, nello sviluppo software in ambiente serverless, in maniera da fornire le competenze necessarie per avere successo nel portare in produzione i propri progetti.
+      CNCF definisce Serverless come un nuovo paradigma di sviluppo e deployment di applicazioni di nuova generazione, capaci di essere indipendenti rispetto all'infrastruttura che le ospita, rendendo di fatto più agile ed efficiente il processo di sviluppo sino alla produzione. Questo workshop è progettato per entrare nel dettaglio di cosa è Serverless sia da punto di vista applicativo che infrastrutturale, fornendo le basi per approcciare al meglio lo sviluppo di nuove generazioni di applicazioni oppure di modernizzare quelle esistenti
     program: |
-      - Panoramica portafoglio servizi serverless su aws
-      - Principi di design e modellazione di architetture serverless 
-      - Criticità e soluzione dei principali problemi 
-      - Metodi di deployment
-      - Logging, tracing e monitoring
-      - Container e serverless, come usare il meglio di entrambi
-      - Scenari e trend futuri da osservare 
+      - Panoramica portafoglio servizi serverless su AWS
+      - Design ed architettura di applicazioni serverless
+      - Testing best practices e tecniche di sviluppo locale
+      - Monitoring, logging e tracing di applicazioni di produzione 
+      
 
     addressed_info: |
       Alla fine del corso saprai disegnare e implementare software in ambiente serverless, comprendendo sia le dinamiche tecniche che la struttura dei costi.
     useful_info: |
-      La durata del corso è di una giornata. 
+      La durata del corso è di due mezze giornate. 
       Qualche giorno prima del corso verrà fornito un voucher di accesso ai servizi AWS a tutti i partecipanti.
       È responsabilità del partecipante arrivare con portatile configurato e funzionante. Vi daremo tutte le indicazioni utili per la configurazione.
   -
