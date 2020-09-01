@@ -10,13 +10,13 @@ list:
     first_name: Vittorio
     last_name: Bertola
     twitter: vittoriobertola
-  -
-    id: marco-abis
-    description: "Fondatore dell'Italian Agile Movement nel 2002 e dell'Agile Day nel 2004, organizzatore della prima European ScrumMaster class con Ken Schwaber nel 2003, è stato eletto Director dell'Agile Alliance nel 2003-2005. Da sempre promotore di approcci come Continuous Delivery e DevOps, oltre ad avere fondato aziende in Italia e UK ha anche lavorato come Agile Coach e membro del Global Management Team per ThoughtWorks in UK, US e India. Oggi membro del Governance team in XPeppers/Claranet Italia."
-    image: marco-abis.jpg
-    first_name: Marco
-    last_name: Abis
-    twitter: capotribu
+#  -
+#    id: marco-abis
+#    description: "Fondatore dell'Italian Agile Movement nel 2002 e dell'Agile Day nel 2004, organizzatore della prima European ScrumMaster class con Ken Schwaber nel 2003, è stato eletto Director dell'Agile Alliance nel 2003-2005. Da sempre promotore di approcci come Continuous Delivery e DevOps, oltre ad avere fondato aziende in Italia e UK ha anche lavorato come Agile Coach e membro del Global Management Team per ThoughtWorks in UK, US e India. Oggi membro del Governance team in XPeppers/Claranet Italia."
+#    image: marco-abis.jpg
+#    first_name: Marco
+#    last_name: Abis
+#    twitter: capotribu
   -
     id: rigel-discala
     description: "Rigel is a software architect and engineer with almost 20 years of professional experience. He has led the design and implementation of several, award-winning digital transformation projects for EU and US legislatures, global information service providers, and financial institutions. He works for Red Hat as a senior consultant in the following areas: Cloud architecture, DevOps tools and ways of working, and API ecosystems for large enterprises. He also has co-authored a book on vector graphics and Inkscape, the popular FOSS illustration program. He learned programming on a Commodore Vic-20."
@@ -24,25 +24,6 @@ list:
     first_name: Rigel
     last_name: Di Scala
     twitter: 
-  -
-    id: anton-babenko
-    description: >
-      Anton is AWS Community Hero and helps companies around the globe build solutions using AWS and specializing in infrastructure as code, DevOps, and reusable infrastructure components.
-      He spends a large amount of his time as an open-source contributor on various Terraform & AWS projects and enjoys solving real cloud architecture tasks and makes them available as open-source. His most successful projects are a collection of Terraform AWS modules (terraform-aws-modules on GitHub) downloaded more than 5 million times, ebook describing Terraform best practices established in the community (www.terraform-best-practices.com), and modules.tf.
-      Anton co-founded and co-organizes AWS, DevOps, HashiCorp User Groups in Norway, DevOpsDays Oslo, and often speaks at various technical meetups and conferences.
-    image: anton-babenko.jpg
-    first_name: Anton 
-    last_name: Babenko
-    twitter: antonbabenko
-
-  -
-    id: paolo-melchiorre
-    description: >
-      Paolo is a Python developer who contributes to the Django project and gives talks at tech conferences. He has been a GNU/Linux user since 2000 and he use and promote Free Software. He has a degree in Computer Science and currently he works remotely, in Pescara (Italy), for 20tab.
-    image: paolo-melchiorre.jpg
-    first_name: Paolo
-    last_name: Melchiorre
-    twitter: pauloxnet
 
   -
     id: raffaele-colace
