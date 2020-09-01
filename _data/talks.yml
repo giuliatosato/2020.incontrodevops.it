@@ -22,21 +22,21 @@
     summarized, and the open, cooperative, interoperable model based on free
     software and open standards will be presented as the possible way
     forward for the European Internet community.
--
-  speaker_id: marco-abis
-  title: "It takes two to DevOps"
-  extract: >
-    In common parlance (and marketing/recruitment speak) DevOps
-    has transformed into a noun but that's misleading as you cannot be "a 
-    DevOps".  Some say it's an adjective and a ‘DevOps person’ is someone
-    who cares about and supports the DevOps principles while others suggest
-    it's an adverb, so we can use it to describe how we do things rather
-    than to describe ourselves.  Either way DevOps itself was never meant to
-    be the goal but rather a mean to an end and we will argue the its key
-    goal is to ensure that software runs well in Production, especially in
-    the context of regular changes (deployments). If you lead a team and
-    want to understand why and how to make your software systems work
-    better, then this talk is for you.
+#-
+#  speaker_id: marco-abis
+#  title: "It takes two to DevOps"
+#  extract: >
+#    In common parlance (and marketing/recruitment speak) DevOps
+#    has transformed into a noun but that's misleading as you cannot be "a 
+#    DevOps".  Some say it's an adjective and a ‘DevOps person’ is someone
+#    who cares about and supports the DevOps principles while others suggest
+#    it's an adverb, so we can use it to describe how we do things rather
+#    than to describe ourselves.  Either way DevOps itself was never meant to
+#    be the goal but rather a mean to an end and we will argue the its key
+#    goal is to ensure that software runs well in Production, especially in
+#    the context of regular changes (deployments). If you lead a team and
+#    want to understand why and how to make your software systems work
+#    better, then this talk is for you.
 -
   speaker_id: rigel-discala
   title: "Write your own Kubernetes Operator using Ansible"
@@ -46,28 +46,6 @@
     Ansible automation framework.  Level: Intermediate, for developers and
     system admins, no programming knowledge needed.
 
--
-  speaker_id: anton-babenko
-  title: Hacking Terraform for fun and profit
-  extract: >
-    If you’ve been using Terraform just by following the official
-    documentation, you are not getting all from it.
-
-    As soon as one cloud provider announces a new service or a feature, you
-    dream that Terraform has zero-day support for it. Well, it is not always
-    like this, and I will show what we can do about it.
-
-    Are you using Terraform and keep asking yourself why I should copy-paste
-    so much? What if you need to manage more than a dozen resources with
-    Terraform (e.g., hundreds of GitHub repositories with permissions, or
-    hundreds of IAM users and their permissions)? How can I use Terraform to
-    manage absolutely ANY type of resource? What is beyond Terraform
-    modules? What is a really dynamic module and what Terraform 0.12 will
-    help us with?
-
-    Let's see the advanced and very unusual solutions of how Terraform can
-    be extended, integrated, executed, or merely hacked to get the job done
-    with the help of external open-source services and integrations.
 
 -
   speaker_id: gabriella-castelli
@@ -100,23 +78,6 @@
     framework to guide the technology choices in terms of your specific
     domain, goals and constraints.
 
--
-  speaker_id: paolo-melchiorre
-  title: A Django project template with CI/CD pipelines and k8s orchestration
-  extract: >
-    Illustro il nostro template di sviluppo open-source per lo sviluppo, il
-    test ed il delivery di progetti principalmente basati su Python, Django,
-    PostgreSQL, uWSGI e React che usiamo in produzione di progetti di medie
-    e grandi dimensioni, per fornire servizi web o mobile.  In questo talk
-    il pubblico potrà vedere come noi mettiamo in pratica le regole dello
-    sviluppo agile in ambito web usando il linguaggio ed il framework web
-    che preferiamo con l'utilizzo di tecnologie di orchestrazione e CI/CD il
-    tutto racchiuso nel nostro template open-source e riutilizzabile da
-    tutti così com'è o adattabile anche con altri linguaggi di
-    programmazione o framework.  In definitiva vorremo portare l'esempio
-    della nostra azienda dove, pur non avendo una figura dedicata
-    esclusivamente ai processi specifici del DevOps ne usiamo
-    l'approccio coordinandoci tramite il nostro template.
 -
   speaker_id: raffaele-colace
   title: A Django project template with CI/CD pipelines and k8s orchestration
@@ -248,22 +209,6 @@
     Fury and upstream Open Source Cloud Native components.  We will also
     discuss and share our journey and lessons learned as operators working
     in a high-pressure environment and national scrutiny.
-
--
-  speaker_id: christian-laurini
-  title: "Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you"
-  extract: >    
-    On Sept. 3rd, 2019, the M5S held a vote on the Rousseau Platform from
-    which was depending the whole country's political system and the current
-    government. The vote ended with over 100.000+ preferences, millions of
-    visiting users, tens of malevolent players reverse engineering your
-    stack, and all principal press offices closely observing the platform
-    behaviors.  In this talk, we will dive deep into the technical
-    architecture behind the new Rousseau Platform, based on AWS, Kubernetes
-    Fury and upstream Open Source Cloud Native components.  We will also
-    discuss and share our journey and lessons learned as operators working
-    in a high-pressure environment and national scrutiny.
-
 
 -
   speaker_id: michele-sacchetti
