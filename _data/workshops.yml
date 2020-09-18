@@ -33,9 +33,9 @@ list:
   -
     slug: corso-ansible
     title: Corso Ansible
-    when: Data da definire. Ore 9:30-18:00
-    where: Bologna     
-    map: 
+    when: 1 Ottobre 2020. Ore 9:30-18:00
+    where: Hotel Calzavecchio, Via Calzavecchio, 1, 40033 CASALECCHIO DI RENO (BO)      
+    map: www.hotelcalzavecchio.eu
     ticket: /tickets.html
     partner:
       name: biodec
