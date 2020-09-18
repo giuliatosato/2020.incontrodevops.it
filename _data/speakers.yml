@@ -63,14 +63,14 @@ list:
     last_name: Re Ferrè
     twitter:     
 
-  -
-    id:  alessandro-proscia
-    description: >
-      Consulente IT con oltre 10 anni di esperienza in diverse importanti realtà finanziarie nazionali. Tra i principali interessi la Cybersecurity e la sua declinazione nel ciclo di vita del software
-    image: alessandro-proscia.jpg
-    first_name: Alessandro
-    last_name: Proscia
-    twitter:     
+#  -
+#    id:  alessandro-proscia
+#    description: >
+#      Consulente IT con oltre 10 anni di esperienza in diverse importanti realtà finanziarie nazionali. Tra i principali interessi la Cybersecurity e la sua declinazione nel ciclo di vita del software
+#    image: alessandro-proscia.jpg
+#    first_name: Alessandro
+#    last_name: Proscia
+#    twitter:     
 
   -
     id: giuseppe-lavagetto
@@ -90,23 +90,21 @@ list:
     last_name: Nardiello
     twitter:   
 
-  -
-    id: emanuel-mazzilli
-    description: >
+#  -
+#    id: emanuel-mazzilli
+#    description: >
+#    image: emanuel-mazzilli.jpg
+#    first_name: Emanuel
+#    last_name: Mazzilli
+#    twitter:   
 
-    image: emanuel-mazzilli.jpg
-    first_name: Emanuel
-    last_name: Mazzilli
-    twitter:   
-
-  -
-    id: cristian-laurini
-    description: >
-
-    image: christian-laurini.jpg
-    first_name: Cristian
-    last_name: Laurini
-    twitter:   
+#  -
+#    id: cristian-laurini
+#    description: >
+#    image: christian-laurini.jpg
+#    first_name: Cristian
+#    last_name: Laurini
+#    twitter:   
 
   -
     id: michele-sacchetti
@@ -117,23 +115,21 @@ list:
     last_name: Sacchetti
     twitter:   
 
-  -
-    id: franco-torriani
-    description: >
+#  -
+#    id: franco-torriani
+#    description: >
+#    image: franco-torriani.jpg
+#    first_name: Franco
+#    last_name: Torriani
+#    twitter:   
 
-    image: franco-torriani.jpg
-    first_name: Franco
-    last_name: Torriani
-    twitter:   
-
-  -
-    id: marco-tozzi
-    description: >
-
-    image: marco-tozzi.jpg
-    first_name: Marco
-    last_name: Tozzi
-    twitter:   
+#  -
+#    id: marco-tozzi
+#    description: >
+#    image: marco-tozzi.jpg
+#    first_name: Marco
+#    last_name: Tozzi
+#    twitter:   
 
   -
     id: gabriella-castelli
@@ -152,14 +148,13 @@ list:
     first_name: Leonardo
     last_name: Di Donato
     twitter:   
-  -
-    id: maurizio-caltabiano
-    description: >
-
-    image: maurizio-caltabiano.jpg
-    first_name: Maurizio 
-    last_name: Caltabiano
-    twitter:   
+#  -
+#    id: maurizio-caltabiano
+#    description: >
+#    image: maurizio-caltabiano.jpg
+#    first_name: Maurizio 
+#    last_name: Caltabiano
+#    twitter:   
 
   -
     id: giulio-vian
@@ -170,14 +165,14 @@ list:
     last_name: Vian
     twitter: giulio_vian  
 
-  -
-    id: alessandro-molari
-    description: >
-        Alessandro è un Cyber Security Advisor: ha costruito il proprio background di Cyber Security nei gruppi di sicurezza, partendo come consulente e professionista, per poi fondare CyberLoop, un'azienda che pone al centro della propria consulenza il principio Security-as-a-Process
-    image: alessandro-molari.jpg
-    first_name: Alessandro 
-    last_name: Molari
-    twitter:   
+#  -
+#    id: alessandro-molari
+#    description: >
+#        Alessandro è un Cyber Security Advisor: ha costruito il proprio background di Cyber Security nei gruppi di sicurezza, partendo come consulente e professionista, per poi fondare CyberLoop, un'azienda che pone al centro della propria consulenza il principio Security-as-a-Process
+#    image: alessandro-molari.jpg
+#    first_name: Alessandro 
+#    last_name: Molari
+#    twitter:   
 
   -
     id: floor-drees
@@ -188,14 +183,14 @@ list:
     last_name: Drees
     twitter: floordrees
 
-  -
-    id: andrea-tosatto
-    description: >
-      I spend most of my time writing YAML and waiting for things to happen. Currently working at @powerdns and @openexchange.
-    image: andrea-tosatto.jpg
-    first_name: Andrea
-    last_name: Tosatto
-    twitter: _hilbert_
+#  -
+#    id: andrea-tosatto
+#    description: >
+#      I spend most of my time writing YAML and waiting for things to happen. Currently working at @powerdns and @openexchange.
+#    image: andrea-tosatto.jpg
+#    first_name: Andrea
+#    last_name: Tosatto
+#    twitter: _hilbert_
 
   -
     id: lars-bendix
@@ -206,30 +201,30 @@ list:
     last_name: Bendix
     twitter:   
   
-  -
-    id: matteo-castellani
-    description: 
-    image: matteo-castellani.jpg
-    first_name: Matteo 
-    last_name: Castellani
-    twitter:   
+#  -
+#    id: matteo-castellani
+#    description: 
+#    image: matteo-castellani.jpg
+#    first_name: Matteo 
+#    last_name: Castellani
+#    twitter:   
 
-  -
-    id: claudio-bartoli
-    description: >
-      I'm Claudio and I'm a software developer. I am growed up in a farmland background and i love to handle first-hand all the things around me: in example I do carpentry work in my house: in general I'm handy and geek. I love friends, and spend a great time with them.
-    image: claudio-bartoli.jpg
-    first_name: Claudio 
-    last_name: Bartoli
-    twitter:   
+#  -
+#    id: claudio-bartoli
+#    description: >
+#      I'm Claudio and I'm a software developer. I am growed up in a farmland background and i love to handle first-hand all the things around me: in example I do carpentry work in my house: in general I'm handy and geek. I love friends, and spend a great time with them.
+#    image: claudio-bartoli.jpg
+#    first_name: Claudio 
+#    last_name: Bartoli
+#    twitter:   
 
-  -
-    id: alessandro-scuderetti
-    description: 
-    image: alessandro-scuderetti.jpg
-    first_name: Alessandro 
-    last_name: Scuderetti
-    twitter:   
+#  -
+#    id: alessandro-scuderetti
+#    description: 
+#    image: alessandro-scuderetti.jpg
+#    first_name: Alessandro 
+#    last_name: Scuderetti
+#    twitter:   
     
   -
     id: giacomo-tonucci
