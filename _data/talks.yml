@@ -128,48 +128,28 @@
     ecosystem and we will provide real life examples of how some AWS and OSS
     technologies can be used to abstract and remove part of the
     undifferentiated heavy lifting developers often need to take care of.
--
-  speaker_id: alessandro-proscia
-  title: "Da DevSecOps a SecDevOps: Security is not a matter of doors (and sometimes windows are broken)"
-  extract: >
-    Se per decenni il mantra nel mondo dell'IT è stato _Prima il software
-    poi i sistemi_, altrettanto lo è ancora la Sicurezza: questa ancora oggi
-    è vista come un aspetto perimetrale di un infrastruttura e spesso
-    relegata alla sola componente Ops.  Nel mondo DevOps l'infrastruttura è
-    diventata parte integrante dello sviluppo e la visione della Sicurezza è
-    mutuata nel concetto moderno di DevSecOps. Tuttavia l'infrastruttura è
-    solo un aspetto di cui preoccuparsi: la Sicurezza è anche una questione
-    di software, persone e processi.  Ad oggi la Sicurezza è un fattore
-    decisivo ed abilitante per il business: è necessaria pertanto un
-    evoluzione dalla sua visione tradizionale ad un approccio più organico.
-    La Sicurezza pertanto deve seguire la stessa evoluzione del mondo Ops:
-    essere presa in considerazione _By design_ in ogni aspetto del ciclo di
-    vita del software.  Nell'incontro saranno presentate le differenze tra
-    gli approcci tradizionali e DevSecOps fino ad arrivare alla sua
-    evoluzione in SecDevOps: verrà in particolare delineato un percorso in
-    cui il punto finale sarà la Sicurezza come parte integrante della
-    metodologia DevOps.
--
-  speaker_id: alessandro-molari
-  title: "Da DevSecOps a SecDevOps: Security is not a matter of doors (and sometimes windows are broken)"
-  extract: >
-    Se per decenni il mantra nel mondo dell'IT è stato _Prima il software
-    poi i sistemi_, altrettanto lo è ancora la Sicurezza: questa ancora oggi
-    è vista come un aspetto perimetrale di un infrastruttura e spesso
-    relegata alla sola componente Ops.  Nel mondo DevOps l'infrastruttura è
-    diventata parte integrante dello sviluppo e la visione della Sicurezza è
-    mutuata nel concetto moderno di DevSecOps. Tuttavia l'infrastruttura è
-    solo un aspetto di cui preoccuparsi: la Sicurezza è anche una questione
-    di software, persone e processi.  Ad oggi la Sicurezza è un fattore
-    decisivo ed abilitante per il business: è necessaria pertanto un
-    evoluzione dalla sua visione tradizionale ad un approccio più organico.
-    La Sicurezza pertanto deve seguire la stessa evoluzione del mondo Ops:
-    essere presa in considerazione _By design_ in ogni aspetto del ciclo di
-    vita del software.  Nell'incontro saranno presentate le differenze tra
-    gli approcci tradizionali e DevSecOps fino ad arrivare alla sua
-    evoluzione in SecDevOps: verrà in particolare delineato un percorso in
-    cui il punto finale sarà la Sicurezza come parte integrante della
-    metodologia DevOps.
+#-
+#  speaker_id: alessandro-proscia
+#  title: "Da DevSecOps a SecDevOps: Security is not a matter of doors (and sometimes windows are broken)"
+#  extract: >
+#    Se per decenni il mantra nel mondo dell'IT è stato _Prima il software
+#    poi i sistemi_, altrettanto lo è ancora la Sicurezza: questa ancora oggi
+#    è vista come un aspetto perimetrale di un infrastruttura e spesso
+#    relegata alla sola componente Ops.  Nel mondo DevOps l'infrastruttura è
+#    diventata parte integrante dello sviluppo e la visione della Sicurezza è
+#    mutuata nel concetto moderno di DevSecOps. Tuttavia l'infrastruttura è
+#    solo un aspetto di cui preoccuparsi: la Sicurezza è anche una questione
+#    di software, persone e processi.  Ad oggi la Sicurezza è un fattore
+#    decisivo ed abilitante per il business: è necessaria pertanto un
+#    evoluzione dalla sua visione tradizionale ad un approccio più organico.
+#    La Sicurezza pertanto deve seguire la stessa evoluzione del mondo Ops:
+#    essere presa in considerazione _By design_ in ogni aspetto del ciclo di
+#    vita del software.  Nell'incontro saranno presentate le differenze tra
+#    gli approcci tradizionali e DevSecOps fino ad arrivare alla sua
+#    evoluzione in SecDevOps: verrà in particolare delineato un percorso in
+#    cui il punto finale sarà la Sicurezza come parte integrante della
+#    metodologia DevOps.
+
 -
   speaker_id: giuseppe-lavagetto
   title: Testing in production for fun and profit
@@ -180,105 +160,35 @@
     experience managing difficult transitions/rollouts for Wikipedia, I will
     underline what and how is worth testing in production, and some
     recommended patterns for doing so, both at large and small scale.
--
-  speaker_id: emanuel-mazzilli
-  title: "Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you"
-  extract: >    
-    On Sept. 3rd, 2019, the M5S held a vote on the Rousseau Platform from
-    which was depending the whole country's political system and the current
-    government. The vote ended with over 100.000+ preferences, millions of
-    visiting users, tens of malevolent players reverse engineering your
-    stack, and all principal press offices closely observing the platform
-    behaviors.  In this talk, we will dive deep into the technical
-    architecture behind the new Rousseau Platform, based on AWS, Kubernetes
-    Fury and upstream Open Source Cloud Native components.  We will also
-    discuss and share our journey and lessons learned as operators working
-    in a high-pressure environment and national scrutiny.
 
 -
   speaker_id: jacopo-nardiello
-  title: "Rousseau Platform: What does it mean to run a high-load critical platform on Kubernetes, while half of the country and national tv is watching you"
-  extract: >    
-    On Sept. 3rd, 2019, the M5S held a vote on the Rousseau Platform from
-    which was depending the whole country's political system and the current
-    government. The vote ended with over 100.000+ preferences, millions of
-    visiting users, tens of malevolent players reverse engineering your
-    stack, and all principal press offices closely observing the platform
-    behaviors.  In this talk, we will dive deep into the technical
-    architecture behind the new Rousseau Platform, based on AWS, Kubernetes
-    Fury and upstream Open Source Cloud Native components.  We will also
-    discuss and share our journey and lessons learned as operators working
-    in a high-pressure environment and national scrutiny.
+  title: "TBD"
+  extract: >        
 
--
-  speaker_id: michele-sacchetti
-  title: Tale of two cities, dark release in both REST and Message Driven ecosystem
-  extract: >
-    In un ambiente di produzione a micro-servizi avere la possibilità di
-    avere dei deploy ""dark"" per valutare gli impatti delle nuove
-    funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
-    service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
-    in un ambiente misto in cui i servizi dialogano anche in con approccio
-    asincrono message driven ci sono alcuni importanti criticità da
-    affrontare per poter ottenere il risultato atteso.  Lo speech illustra
-    come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
-    della nostra pipeline di Continuous Delivery per gestire dei
-    microservizi “dark” affiancati a quelli live sia in ambiente di
-    integrazione per velocizzare e parallelizzare lo sviluppo, sia in
-    produzione per poter fare rilasci a zero downtime e A/B Testing.  La
-    seconda parte illustra come siamo riusciti ad estendere lo stesso
-    concetto anche alla parte di micro-servizi che dialoga non tramite
-    chiamate REST ma via messaggistica Kafka, un ambito attualmente non
-    coperto dal concetto di service mesh dove abbiamo dovuto implementare
-    una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
-    ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
-    per ciascuna funzionalità sviluppata.
--
-  speaker_id: franco-torriani
-  title: Tale of two cities, dark release in both REST and Message Driven ecosystem
-  extract: >
-    In un ambiente di produzione a micro-servizi avere la possibilità di
-    avere dei deploy ""dark"" per valutare gli impatti delle nuove
-    funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
-    service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
-    in un ambiente misto in cui i servizi dialogano anche in con approccio
-    asincrono message driven ci sono alcuni importanti criticità da
-    affrontare per poter ottenere il risultato atteso.  Lo speech illustra
-    come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
-    della nostra pipeline di Continuous Delivery per gestire dei
-    microservizi “dark” affiancati a quelli live sia in ambiente di
-    integrazione per velocizzare e parallelizzare lo sviluppo, sia in
-    produzione per poter fare rilasci a zero downtime e A/B Testing.  La
-    seconda parte illustra come siamo riusciti ad estendere lo stesso
-    concetto anche alla parte di micro-servizi che dialoga non tramite
-    chiamate REST ma via messaggistica Kafka, un ambito attualmente non
-    coperto dal concetto di service mesh dove abbiamo dovuto implementare
-    una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
-    ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
-    per ciascuna funzionalità sviluppata.
--
-  speaker_id: marco-tozzi
-  title: Tale of two cities, dark release in both REST and Message Driven ecosystem
-  extract: >
-    In un ambiente di produzione a micro-servizi avere la possibilità di
-    avere dei deploy ""dark"" per valutare gli impatti delle nuove
-    funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
-    service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
-    in un ambiente misto in cui i servizi dialogano anche in con approccio
-    asincrono message driven ci sono alcuni importanti criticità da
-    affrontare per poter ottenere il risultato atteso.  Lo speech illustra
-    come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
-    della nostra pipeline di Continuous Delivery per gestire dei
-    microservizi “dark” affiancati a quelli live sia in ambiente di
-    integrazione per velocizzare e parallelizzare lo sviluppo, sia in
-    produzione per poter fare rilasci a zero downtime e A/B Testing.  La
-    seconda parte illustra come siamo riusciti ad estendere lo stesso
-    concetto anche alla parte di micro-servizi che dialoga non tramite
-    chiamate REST ma via messaggistica Kafka, un ambito attualmente non
-    coperto dal concetto di service mesh dove abbiamo dovuto implementare
-    una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
-    ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
-    per ciascuna funzionalità sviluppata.
+#-
+#  speaker_id: marco-tozzi
+#  title: Tale of two cities, dark release in both REST and Message Driven ecosystem
+#  extract: >
+#    In un ambiente di produzione a micro-servizi avere la possibilità di
+#    avere dei deploy ""dark"" per valutare gli impatti delle nuove
+#    funzionalità è un grossissimo vantaggio.  L'introduzione del concetto di
+#    service mesh permette un maggiore controllo sulle chiamate REST/Http, ma
+#    in un ambiente misto in cui i servizi dialogano anche in con approccio
+#    asincrono message driven ci sono alcuni importanti criticità da
+#    affrontare per poter ottenere il risultato atteso.  Lo speech illustra
+#    come abbiamo integrato l’utilizzo di Istio su Kubernetes all’interno
+#    della nostra pipeline di Continuous Delivery per gestire dei
+#    microservizi “dark” affiancati a quelli live sia in ambiente di
+#    integrazione per velocizzare e parallelizzare lo sviluppo, sia in
+#    produzione per poter fare rilasci a zero downtime e A/B Testing.  La
+#    seconda parte illustra come siamo riusciti ad estendere lo stesso
+#    concetto anche alla parte di micro-servizi che dialoga non tramite
+#    chiamate REST ma via messaggistica Kafka, un ambito attualmente non
+#    coperto dal concetto di service mesh dove abbiamo dovuto implementare
+#    una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
+#    ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
+#    per ciascuna funzionalità sviluppata.
 
 -
   speaker_id: leonardo-didonato
@@ -291,20 +201,20 @@
     are both the kernel and Kubernetes aware. In other words, Cloud Native.
 
 
--
-  speaker_id: maurizio-caltabiano
-  title: IT Asset Management
-  extract: >
-      Nel percorso DevOps di automazione e controllo dell'intera
-      filiera di produzione del software, Banca Mediolanum sviluppa un
-      Configuration Management System ovvero uno strumento di analisi degli
-      asset tecnologici basandosi su Neo4j, Spark e Hadoop. La scelta di
-      modellare il dominio come un insieme di relazioni tra entità diverse ma
-      tra loro naturalmente connesse si rivela vincente nel consentire di
-      fornire insight mirati ed efficaci ai differenti attori e processi. Il
-      graph database diventa il supporto di analisi strumentale per gli
-      Specialisti IT nelle operazioni quotidiane di analisi di impatto,
-      disegno e governo degli asset tecnologici.
+#-
+#  speaker_id: maurizio-caltabiano
+#  title: IT Asset Management
+#  extract: >
+#      Nel percorso DevOps di automazione e controllo dell'intera
+#      filiera di produzione del software, Banca Mediolanum sviluppa un
+#      Configuration Management System ovvero uno strumento di analisi degli
+#      asset tecnologici basandosi su Neo4j, Spark e Hadoop. La scelta di
+#      modellare il dominio come un insieme di relazioni tra entità diverse ma
+#      tra loro naturalmente connesse si rivela vincente nel consentire di
+#      fornire insight mirati ed efficaci ai differenti attori e processi. Il
+#      graph database diventa il supporto di analisi strumentale per gli
+#      Specialisti IT nelle operazioni quotidiane di analisi di impatto,
+#      disegno e governo degli asset tecnologici.
 
 -
   speaker_id: giulio-vian
@@ -326,22 +236,22 @@
   extract: >
       The first Microsoft project released under an open source license was WIX... in 2004! The technology behemoth has come a long way since then. Today, Microsoft’s engineers maintain TypeScript, .NET, Windows Terminal, Dapr, Helm, and more than a thousand other projects. Did you know that with over 19k contributors, Visual Studio Code is the number 1 open source project by contributors? How does Microsoft's Open Source Program Office (OSPO) manage and support all that activity, and what is their recipe for scale?
 
--
-  speaker_id: andrea-tosatto
-  title: Effective GitOps with Ansible
-  extract: >
-      "Initially advocated by WeaveWorks in the context of cloud native
-      applications delivery, the GitOps approach promises to streamline
-      applications and infrastructures delivery promoting a Git-centric
-      approach to applications and configuration mangement.  While GitOps is
-      seeing a growing interest and adoption in the Kubernetes community with
-      the help of tools such as Argo and Flux, there is a lack of tooling and
-      literature describing how this approach can be extended to the broader
-      configuration management environment and traditional infrastructures.
-      The goal of this talk is to explore how GitOps relates to traditional
-      configuration management and how this can be effectively implemented by
-      DevOps teams to streamline the delivery of Ansible-managed
-      infrastructures and applications."
+#-
+#  speaker_id: andrea-tosatto
+#  title: Effective GitOps with Ansible
+#  extract: >
+#      "Initially advocated by WeaveWorks in the context of cloud native
+#      applications delivery, the GitOps approach promises to streamline
+#      applications and infrastructures delivery promoting a Git-centric
+#      approach to applications and configuration mangement.  While GitOps is
+#      seeing a growing interest and adoption in the Kubernetes community with
+#      the help of tools such as Argo and Flux, there is a lack of tooling and
+#      literature describing how this approach can be extended to the broader
+#      configuration management environment and traditional infrastructures.
+#      The goal of this talk is to explore how GitOps relates to traditional
+#      configuration management and how this can be effectively implemented by
+#      DevOps teams to streamline the delivery of Ansible-managed
+#      infrastructures and applications."
 
 -
   speaker_id: lars-bendix
@@ -369,49 +279,49 @@
       and discuss our findings so far."
 
 
--
-  speaker_id: matteo-castellani
-  title: Un Castello di Carte (di Credito) tra le Nuvole
-  extract: >
-    PCI-DSS è un acronimo che sta per “Payment Card Industry - Data Security Standard” ed in UK rappresenta il modello legale da soddisfare se si
-    decide di gestire autonomamente il proprio sistema di pagamenti online. 
-    In questo talk racconterò le strategie che io ed il mio team abbiamo messo a punto per realizzare uno dei primi sistemi di pagamento,
-    certificati PCI-DSS di primo livello, hostato interamente in AWS public cloud.
-    Racconterò di come Dev ed Ops abbiano lavorato assieme, descriverò l’architettura dell’infrastruttura, il tipo di automazioni e quali gli
-    accorgimenti  utilizzati per la realizzazione della piattaforma.
+#-
+#  speaker_id: matteo-castellani
+#  title: Un Castello di Carte (di Credito) tra le Nuvole
+#  extract: >
+#    PCI-DSS è un acronimo che sta per “Payment Card Industry - Data Security Standard” ed in UK rappresenta il modello legale da soddisfare se si
+#    decide di gestire autonomamente il proprio sistema di pagamenti online. 
+#    In questo talk racconterò le strategie che io ed il mio team abbiamo messo a punto per realizzare uno dei primi sistemi di pagamento,
+#    certificati PCI-DSS di primo livello, hostato interamente in AWS public cloud.
+#    Racconterò di come Dev ed Ops abbiano lavorato assieme, descriverò l’architettura dell’infrastruttura, il tipo di automazioni e quali gli
+#    accorgimenti  utilizzati per la realizzazione della piattaforma.
 
--
-  speaker_id: claudio-bartoli
-  title: Data science from lab to production
-  extract: >
-    "Vorrei raccontare l’esperienza vissuta come Data Engineer in un team di
-    data scientist, dove le competenze matematiche e statistiche sono molto
-    elevate, ma non si può dire lo stesso per quella sistemistica e la cura
-    (e replicabilità) degli ambienti.  L’esperienza (in ambito python) ci ha
-    permesso di eseguire l’ambiente in locale e CI (con docker) in
-    produzione su cluster AWS EMR.  Il taglio del talk sarebbe molto
-    esperienziale, su quelle che sono le dinamiche su team MOLTO eterogenei
-    e sulla replicabilità delle dipendenze python (tramite pyenv e pipenv) e
-    di sistema (librerie native) per poter replicare gli ambienti sulle
-    varie piattaforme."
+#-
+#  speaker_id: claudio-bartoli
+#  title: Data science from lab to production
+#  extract: >
+#    "Vorrei raccontare l’esperienza vissuta come Data Engineer in un team di
+#    data scientist, dove le competenze matematiche e statistiche sono molto
+#    elevate, ma non si può dire lo stesso per quella sistemistica e la cura
+#    (e replicabilità) degli ambienti.  L’esperienza (in ambito python) ci ha
+#    permesso di eseguire l’ambiente in locale e CI (con docker) in
+#    produzione su cluster AWS EMR.  Il taglio del talk sarebbe molto
+#    esperienziale, su quelle che sono le dinamiche su team MOLTO eterogenei
+#    e sulla replicabilità delle dipendenze python (tramite pyenv e pipenv) e
+#    di sistema (librerie native) per poter replicare gli ambienti sulle
+#    varie piattaforme."
     
--
-  speaker_id: alessandro-scuderetti
-  title: "Continuous Delivery su Database in contesto Enterprise: sfide tecniche e organizzative"
-  extract: >
-   Nel percorso DevOps di automazione e controllo dell'intera filiera di produzione del software, Banca Mediolanum sviluppa una pipeline
-   di continuous delivery su database. L’intervento racconta l’esperienza vissuta in un progetto di automazione del processo di rilascio del
-   software su database, problematiche e benefici ottenuti in termini di efficienza e sostenibilità di processi legati al governo dei dati quali
-   “privacy by design”. Ecco i temi trattati:
-   * Contesto organizzativo, di processo e tecnico di partenza
-   * Definizione nuovo processo di design, sviluppo e rilascio
-   * Soluzione tecnica: modello di branching, versionamento, Erwin, Flyway,
-     Jenkins Pipeline, Git, Maven, Artifactory, Mattermost, Hashicorp Vault
-     e Consul, custom tool
-   * Mitigazione dei rischi di cambiamento: visibilità, collaborazione,
-     condivisione
-   * Gdpr e privacy by design
-   * Benefici ottenuti, “lesson learned” e prossimi passi
+#-
+#  speaker_id: alessandro-scuderetti
+#  title: "Continuous Delivery su Database in contesto Enterprise: sfide tecniche e organizzative"
+#  extract: >
+#   Nel percorso DevOps di automazione e controllo dell'intera filiera di produzione del software, Banca Mediolanum sviluppa una pipeline
+#   di continuous delivery su database. L’intervento racconta l’esperienza vissuta in un progetto di automazione del processo di rilascio del
+#   software su database, problematiche e benefici ottenuti in termini di efficienza e sostenibilità di processi legati al governo dei dati quali
+#   “privacy by design”. Ecco i temi trattati:
+#   * Contesto organizzativo, di processo e tecnico di partenza
+#   * Definizione nuovo processo di design, sviluppo e rilascio
+#   * Soluzione tecnica: modello di branching, versionamento, Erwin, Flyway,
+#     Jenkins Pipeline, Git, Maven, Artifactory, Mattermost, Hashicorp Vault
+#     e Consul, custom tool
+#   * Mitigazione dei rischi di cambiamento: visibilità, collaborazione,
+#     condivisione
+#   * Gdpr e privacy by design
+#   * Benefici ottenuti, “lesson learned” e prossimi passi
 
 -
   speaker_id: giacomo-tonucci
