@@ -230,11 +230,11 @@
       I stand that 0.12 is so powerful that you can create provider-agnostic
       modules and write code that works the same in GCP, AWS and Azure.
 
--
-  speaker_id: floor-drees
-  title: "Open at Microsoft: what do VS Code, .NET, TypeScript and Git have in common?"
-  extract: >
-      The first Microsoft project released under an open source license was WIX... in 2004! The technology behemoth has come a long way since then. Today, Microsoft’s engineers maintain TypeScript, .NET, Windows Terminal, Dapr, Helm, and more than a thousand other projects. Did you know that with over 19k contributors, Visual Studio Code is the number 1 open source project by contributors? How does Microsoft's Open Source Program Office (OSPO) manage and support all that activity, and what is their recipe for scale?
+#-
+#  speaker_id: floor-drees
+#  title: "Open at Microsoft: what do VS Code, .NET, TypeScript and Git have in common?"
+#  extract: >
+#      The first Microsoft project released under an open source license was WIX... in 2004! The technology behemoth has come a long way since then. Today, Microsoft’s engineers maintain TypeScript, .NET, Windows Terminal, Dapr, Helm, and more than a thousand other projects. Did you know that with over 19k contributors, Visual Studio Code is the number 1 open source project by contributors? How does Microsoft's Open Source Program Office (OSPO) manage and support all that activity, and what is their recipe for scale?
 
 #-
 #  speaker_id: andrea-tosatto
@@ -279,16 +279,16 @@
       and discuss our findings so far."
 
 
-#-
-#  speaker_id: matteo-castellani
-#  title: Un Castello di Carte (di Credito) tra le Nuvole
-#  extract: >
-#    PCI-DSS è un acronimo che sta per “Payment Card Industry - Data Security Standard” ed in UK rappresenta il modello legale da soddisfare se si
-#    decide di gestire autonomamente il proprio sistema di pagamenti online. 
-#    In questo talk racconterò le strategie che io ed il mio team abbiamo messo a punto per realizzare uno dei primi sistemi di pagamento,
-#    certificati PCI-DSS di primo livello, hostato interamente in AWS public cloud.
-#    Racconterò di come Dev ed Ops abbiano lavorato assieme, descriverò l’architettura dell’infrastruttura, il tipo di automazioni e quali gli
-#    accorgimenti  utilizzati per la realizzazione della piattaforma.
+-
+  speaker_id: matteo-castellani
+  title: Un Castello di Carte (di Credito) tra le Nuvole
+  extract: >
+    PCI-DSS è un acronimo che sta per “Payment Card Industry - Data Security Standard” ed in UK rappresenta il modello legale da soddisfare se si
+    decide di gestire autonomamente il proprio sistema di pagamenti online. 
+    In questo talk racconterò le strategie che io ed il mio team abbiamo messo a punto per realizzare uno dei primi sistemi di pagamento,
+    certificati PCI-DSS di primo livello, hostato interamente in AWS public cloud.
+    Racconterò di come Dev ed Ops abbiano lavorato assieme, descriverò l’architettura dell’infrastruttura, il tipo di automazioni e quali gli
+    accorgimenti  utilizzati per la realizzazione della piattaforma.
 
 #-
 #  speaker_id: claudio-bartoli
