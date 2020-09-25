@@ -174,14 +174,14 @@ list:
 #    last_name: Molari
 #    twitter:   
 
-  -
-    id: floor-drees
-    description: >
-      Floor Drees is a Cloud Advocate Program Manager at Microsoft, self-taught (Ruby) developer, and champion supporter of open source by trade. Floor organizes a ton of tech events around app dev and software architecture.
-    image: floor-drees.jpg
-    first_name: Floor 
-    last_name: Drees
-    twitter: floordrees
+#  -
+#    id: floor-drees
+#    description: >
+#      Floor Drees is a Cloud Advocate Program Manager at Microsoft, self-taught (Ruby) developer, and champion supporter of open source by trade. Floor organizes a ton of tech events around app dev and software architecture.
+#    image: floor-drees.jpg
+#    first_name: Floor 
+#    last_name: Drees
+#    twitter: floordrees
 
 #  -
 #    id: andrea-tosatto
@@ -201,13 +201,13 @@ list:
     last_name: Bendix
     twitter:   
   
-#  -
-#    id: matteo-castellani
-#    description: 
-#    image: matteo-castellani.jpg
-#    first_name: Matteo 
-#    last_name: Castellani
-#    twitter:   
+  -
+    id: matteo-castellani
+    description: 
+    image: matteo-castellani.jpg
+    first_name: Matteo 
+    last_name: Castellani
+    twitter:   
 
 #  -
 #    id: claudio-bartoli
