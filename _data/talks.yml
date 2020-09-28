@@ -1,4 +1,29 @@
 -
+  speaker_id: lars-bendix
+  title: What SCM is useful and necessary on DevOps projects?
+  extract: >
+      "Software Configuration Management (SCM) is an important
+      foundation for any type of project to work in a smooth and successful
+      way. So there is no reason that SCM shouldn't be useful and necessary
+      also on DevOps projects However, all projects are not alike and there is
+      no single “one size fits all” SCM that will work in all contexts and for
+      all development methods. SCM has well-established practices for more
+      traditional ways of development, but very little is known about what SCM
+      is needed and how it should be carried out in a DevOps context.  DevOps
+      projects probably need SCM done in different ways than “traditional”
+      projects - and operationally by different (non-SCM) people. The
+      difficult thing is not the concepts and principles of SCM - but to
+      figure out what part of them can be helpful in different situations and
+      in which way they should be implemented.  As SCM experts - with a DevOps
+      interest - we decided to investigate more closely how to match up SCM
+      with DevOps. There is already some knowledge about how to do SCM in
+      DevOps contexts, but it is fragmented and scattered around - and it is
+      incomplete. We have researched “prior art” to collect existing wisdom.
+      We have also analysed DevOps and SCM to identify areas where we could
+      complete the existing knowledge.  In this presentation, we will present
+      and discuss our findings so far."
+
+-
   speaker_id: vittorio-bertola
   title: "Inside Hotel California: how the Internet giants dominate through culture and technology"
   keynote: true
@@ -22,30 +47,18 @@
     summarized, and the open, cooperative, interoperable model based on free
     software and open standards will be presented as the possible way
     forward for the European Internet community.
-#-
-#  speaker_id: marco-abis
-#  title: "It takes two to DevOps"
-#  extract: >
-#    In common parlance (and marketing/recruitment speak) DevOps
-#    has transformed into a noun but that's misleading as you cannot be "a 
-#    DevOps".  Some say it's an adjective and a ‘DevOps person’ is someone
-#    who cares about and supports the DevOps principles while others suggest
-#    it's an adverb, so we can use it to describe how we do things rather
-#    than to describe ourselves.  Either way DevOps itself was never meant to
-#    be the goal but rather a mean to an end and we will argue the its key
-#    goal is to ensure that software runs well in Production, especially in
-#    the context of regular changes (deployments). If you lead a team and
-#    want to understand why and how to make your software systems work
-#    better, then this talk is for you.
+    
+    
 -
-  speaker_id: rigel-discala
-  title: "Write your own Kubernetes Operator using Ansible"
+  speaker_id: matteo-castellani
+  title: Un Castello di Carte (di Credito) tra le Nuvole
   extract: >
-    This "talkshop" introduces the concept of Kubernetes Operators
-    and guides the attendee in writing a simple one on OpenShift using the
-    Ansible automation framework.  Level: Intermediate, for developers and
-    system admins, no programming knowledge needed.
-
+    PCI-DSS è un acronimo che sta per “Payment Card Industry - Data Security Standard” ed in UK rappresenta il modello legale da soddisfare se si
+    decide di gestire autonomamente il proprio sistema di pagamenti online. 
+    In questo talk racconterò le strategie che io ed il mio team abbiamo messo a punto per realizzare uno dei primi sistemi di pagamento,
+    certificati PCI-DSS di primo livello, hostato interamente in AWS public cloud.
+    Racconterò di come Dev ed Ops abbiano lavorato assieme, descriverò l’architettura dell’infrastruttura, il tipo di automazioni e quali gli
+    accorgimenti  utilizzati per la realizzazione della piattaforma.
 
 -
   speaker_id: gabriella-castelli
@@ -60,23 +73,6 @@
     percorso sta evolvendo man mano che lo percorriamo. In particolare
     stiamo vedendo davvero ""sulla nostra pelle"" quanto il DevOps sia un
     cambiamento culturale e di metodo e non solo di tecnologia. 
-
--
-  speaker_id: francesco-degrassi
-  title: Surviving microservices
-  extract: >
-    Challenges and risks during adoption, and what to look for beyond.
-    With microservices becoming mainstream a few years ago, many
-    organizations have now adopted them; even though all are paying the
-    price in terms of training, solution complexity and operational costs,
-    few are reaping the promised benefits.  Lower velocity, quality and
-    performance issues, along with an overall lack of visibility are what we
-    hear about most often.  In this session, working from our experience as
-    advisors to software development teams, we’ll walk you through some of
-    the symptoms you might experience, their possible causes and some
-    potential solutions.  Furthermore we outline a pragmatic adoption
-    framework to guide the technology choices in terms of your specific
-    domain, goals and constraints.
 
 -
   speaker_id: raffaele-colace
@@ -95,6 +91,67 @@
     della nostra azienda dove, pur non avendo una figura dedicata
     esclusivamente ai processi specifici del DevOps ne usiamo
     l'approccio coordinandoci tramite il nostro template.
+-
+  speaker_id: francesco-degrassi
+  title: Surviving microservices
+  extract: >
+    Challenges and risks during adoption, and what to look for beyond.
+    With microservices becoming mainstream a few years ago, many
+    organizations have now adopted them; even though all are paying the
+    price in terms of training, solution complexity and operational costs,
+    few are reaping the promised benefits.  Lower velocity, quality and
+    performance issues, along with an overall lack of visibility are what we
+    hear about most often.  In this session, working from our experience as
+    advisors to software development teams, we’ll walk you through some of
+    the symptoms you might experience, their possible causes and some
+    potential solutions.  Furthermore we outline a pragmatic adoption
+    framework to guide the technology choices in terms of your specific
+    domain, goals and constraints.
+    
+-
+  speaker_id: leonardo-didonato
+  title: Cloud Native eBPF Instrumentation
+  extract: >
+    In this talk we are going to see how in Cloud Native environments we have
+    the common issue of having tools to instrument and comprehend the
+    application behaviour at kernel level. To try to solve this problem I'll
+    try to illustrate my opinions on how I used eBPF and eBPF based tools that
+    are both the kernel and Kubernetes aware. In other words, Cloud Native.    
+    
+-
+  speaker_id: rigel-discala
+  title: "Write your own Kubernetes Operator using Ansible"
+  extract: >
+    This "talkshop" introduces the concept of Kubernetes Operators
+    and guides the attendee in writing a simple one on OpenShift using the
+    Ansible automation framework.  Level: Intermediate, for developers and
+    system admins, no programming knowledge needed.
+
+-
+  speaker_id: april-edwards
+  title: ""DevOps at Microsoft: Our Internal Transformation Story"
+  extract: > 
+    Hear how Microsoft embarked on their own DevOps journey reducing a three-year release cycle down to three weeks. 
+    This required changes to their people, process and products. April Edwards is a Senior Software Engineer and will share insights 
+    into the agile transformation of Microsoft's Developer Division and showcase newest additions to Azure and how to use Azure DevOps to deploy any 
+    language on any platform, including Windows, Linux, mobile and containers.
+    
+-
+  speaker_id: giuseppe-lavagetto
+  title: Testing in production for fun and profit
+  extract: >
+    While it's common wisdom that testing in production is a
+    bad thing, it's actually a fundamental part of the work of most
+    deployments in a fast-paced environment. In this talk, starting from my
+    experience managing difficult transitions/rollouts for Wikipedia, I will
+    underline what and how is worth testing in production, and some
+    recommended patterns for doing so, both at large and small scale.
+
+-
+  speaker_id: jacopo-nardiello
+  title: "TBD"
+  extract: >    
+
 -
   speaker_id: marco-pracucci
   title: Scaling Prometheus with Cortex, one time series at a time
@@ -150,21 +207,7 @@
 #    cui il punto finale sarà la Sicurezza come parte integrante della
 #    metodologia DevOps.
 
--
-  speaker_id: giuseppe-lavagetto
-  title: Testing in production for fun and profit
-  extract: >
-    While it's common wisdom that testing in production is a
-    bad thing, it's actually a fundamental part of the work of most
-    deployments in a fast-paced environment. In this talk, starting from my
-    experience managing difficult transitions/rollouts for Wikipedia, I will
-    underline what and how is worth testing in production, and some
-    recommended patterns for doing so, both at large and small scale.
-
--
-  speaker_id: jacopo-nardiello
-  title: "TBD"
-  extract: >        
+    
 
 #-
 #  speaker_id: marco-tozzi
@@ -188,17 +231,7 @@
 #    coperto dal concetto di service mesh dove abbiamo dovuto implementare
 #    una nostra soluzione.  Il tutto è stato integrato sul nostro sistema di
 #    ticketing Jira in modo da tenere traccia dello stato/ambiente di deploy
-#    per ciascuna funzionalità sviluppata.
-
--
-  speaker_id: leonardo-didonato
-  title: Cloud Native eBPF Instrumentation
-  extract: >
-    In this talk we are going to see how in Cloud Native environments we have
-    the common issue of having tools to instrument and comprehend the
-    application behaviour at kernel level. To try to solve this problem I'll
-    try to illustrate my opinions on how I used eBPF and eBPF based tools that
-    are both the kernel and Kubernetes aware. In other words, Cloud Native.
+#    per ciascuna funzionalità sviluppata
 
 
 #-
@@ -215,26 +248,6 @@
 #      graph database diventa il supporto di analisi strumentale per gli
 #      Specialisti IT nelle operazioni quotidiane di analisi di impatto,
 #      disegno e governo degli asset tecnologici.
-
--
-  speaker_id: giulio-vian
-  title: "How to write cloud-agnostic Terraform code"
-  extract: >
-      Terraform is a beautiful tool we all love; it is multi-cloud, meaning you
-      can write code to provision resources from all major and many minor cloud
-      providers. Sadly the code you write is vendor specific as resource
-      descriptions are not portable between providers.
-      What if your boss or customer wants a cloud-agnostic solution? Do you need
-      an external tool or Terraform language is rich enough to allow
-      cloud-agnostic code?
-      I stand that 0.12 is so powerful that you can create provider-agnostic
-      modules and write code that works the same in GCP, AWS and Azure.
-
-#-
-#  speaker_id: floor-drees
-#  title: "Open at Microsoft: what do VS Code, .NET, TypeScript and Git have in common?"
-#  extract: >
-#      The first Microsoft project released under an open source license was WIX... in 2004! The technology behemoth has come a long way since then. Today, Microsoft’s engineers maintain TypeScript, .NET, Windows Terminal, Dapr, Helm, and more than a thousand other projects. Did you know that with over 19k contributors, Visual Studio Code is the number 1 open source project by contributors? How does Microsoft's Open Source Program Office (OSPO) manage and support all that activity, and what is their recipe for scale?
 
 #-
 #  speaker_id: andrea-tosatto
@@ -253,42 +266,6 @@
 #      DevOps teams to streamline the delivery of Ansible-managed
 #      infrastructures and applications."
 
--
-  speaker_id: lars-bendix
-  title: What SCM is useful and necessary on DevOps projects?
-  extract: >
-      "Software Configuration Management (SCM) is an important
-      foundation for any type of project to work in a smooth and successful
-      way. So there is no reason that SCM shouldn't be useful and necessary
-      also on DevOps projects However, all projects are not alike and there is
-      no single “one size fits all” SCM that will work in all contexts and for
-      all development methods. SCM has well-established practices for more
-      traditional ways of development, but very little is known about what SCM
-      is needed and how it should be carried out in a DevOps context.  DevOps
-      projects probably need SCM done in different ways than “traditional”
-      projects - and operationally by different (non-SCM) people. The
-      difficult thing is not the concepts and principles of SCM - but to
-      figure out what part of them can be helpful in different situations and
-      in which way they should be implemented.  As SCM experts - with a DevOps
-      interest - we decided to investigate more closely how to match up SCM
-      with DevOps. There is already some knowledge about how to do SCM in
-      DevOps contexts, but it is fragmented and scattered around - and it is
-      incomplete. We have researched “prior art” to collect existing wisdom.
-      We have also analysed DevOps and SCM to identify areas where we could
-      complete the existing knowledge.  In this presentation, we will present
-      and discuss our findings so far."
-
-
--
-  speaker_id: matteo-castellani
-  title: Un Castello di Carte (di Credito) tra le Nuvole
-  extract: >
-    PCI-DSS è un acronimo che sta per “Payment Card Industry - Data Security Standard” ed in UK rappresenta il modello legale da soddisfare se si
-    decide di gestire autonomamente il proprio sistema di pagamenti online. 
-    In questo talk racconterò le strategie che io ed il mio team abbiamo messo a punto per realizzare uno dei primi sistemi di pagamento,
-    certificati PCI-DSS di primo livello, hostato interamente in AWS public cloud.
-    Racconterò di come Dev ed Ops abbiano lavorato assieme, descriverò l’architettura dell’infrastruttura, il tipo di automazioni e quali gli
-    accorgimenti  utilizzati per la realizzazione della piattaforma.
 
 #-
 #  speaker_id: claudio-bartoli
@@ -332,7 +309,19 @@
     Per superare questi limiti potrebbe essere necessario introdurre in azienda una Service Mesh. 
     La Service Mesh offre osservabilità, resilienza, controllo del traffico e sicurezza per le comunicazioni tra servizi distribuiti, 
     aggiungendo un disaccoppiamento tra il codice applicativo(Dev) e le preoccupazioni a livello di servizio e gestione delle sessioni (Ops)
-
+-
+  speaker_id: giulio-vian
+  title: "How to write cloud-agnostic Terraform code"
+  extract: >
+      Terraform is a beautiful tool we all love; it is multi-cloud, meaning you
+      can write code to provision resources from all major and many minor cloud
+      providers. Sadly the code you write is vendor specific as resource
+      descriptions are not portable between providers.
+      What if your boss or customer wants a cloud-agnostic solution? Do you need
+      an external tool or Terraform language is rich enough to allow
+      cloud-agnostic code?
+      I stand that 0.12 is so powerful that you can create provider-agnostic
+      modules and write code that works the same in GCP, AWS and Azure.
 # -
 #   speaker_id: 
 #   title:

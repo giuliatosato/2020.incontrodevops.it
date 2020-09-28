@@ -3,6 +3,17 @@
 call_for_paper_url: "mailto:info@incontrodevops.it"
 call_for_paper: false
 list:
+
+
+  -
+    id: lars-bendix
+    description: >
+      Lars Bendix is a professor of software engineering at Lund University in Sweden and an administrator of the Scandinavian Network of Excellence in Software Configuration Management. He has spent most of his academic career doing research in Configuration Management together with various industrial partners, and has taught one of the few academic courses in Configuration Management to hundreds of students. For almost two decades he has also been heavily involved with his department’s agile activities.
+    image: lars-bendix.jpg
+    first_name: Lars 
+    last_name: Bendix
+    twitter:   
+    
   -
     id: vittorio-bertola
     description: "Vittorio Bertola is an engineer, policy expert, entrepreneur and activist from Italy, and the Head of Policy & Innovation at Open-Xchange, the global leader in open source email and DNS platforms. In the past he founded startups, campaigns, Usenet newsgroups and political parties, served on the Board of ICANN and on United Nations internet governance groups, wrote unnecessarily complex Perl scripts, and argued online on a lot of things with a lot of people."
@@ -10,6 +21,23 @@ list:
     first_name: Vittorio
     last_name: Bertola
     twitter: vittoriobertola
+  
+  -
+    id: matteo-castellani
+    description: 
+    image: matteo-castellani.jpg
+    first_name: Matteo 
+    last_name: Castellani
+    twitter:   
+    
+  -
+    id: gabriella-castelli
+    description: >
+    image: gabriella-castelli.jpg
+    first_name: Gabriella 
+    last_name: Castelli
+    twitter:   
+    
 #  -
 #    id: marco-abis
 #    description: "Fondatore dell'Italian Agile Movement nel 2002 e dell'Agile Day nel 2004, organizzatore della prima European ScrumMaster class con Ken Schwaber nel 2003, è stato eletto Director dell'Agile Alliance nel 2003-2005. Da sempre promotore di approcci come Continuous Delivery e DevOps, oltre ad avere fondato aziende in Italia e UK ha anche lavorato come Agile Coach e membro del Global Management Team per ThoughtWorks in UK, US e India. Oggi membro del Governance team in XPeppers/Claranet Italia."
@@ -17,13 +45,6 @@ list:
 #    first_name: Marco
 #    last_name: Abis
 #    twitter: capotribu
-  -
-    id: rigel-discala
-    description: "Rigel is a software architect and engineer with almost 20 years of professional experience. He has led the design and implementation of several, award-winning digital transformation projects for EU and US legislatures, global information service providers, and financial institutions. He works for Red Hat as a senior consultant in the following areas: Cloud architecture, DevOps tools and ways of working, and API ecosystems for large enterprises. He also has co-authored a book on vector graphics and Inkscape, the popular FOSS illustration program. He learned programming on a Commodore Vic-20."
-    image: rigel-discala.jpg
-    first_name: Rigel
-    last_name: Di Scala
-    twitter: 
 
   -
     id: raffaele-colace
@@ -45,6 +66,48 @@ list:
     first_name: Francesco 
     last_name: Degrassi
     twitter: 
+ 
+  -
+    id: leonardo-didonato
+    description: >
+
+    image: leonardo-didonato.jpg
+    first_name: Leonardo
+    last_name: Di Donato
+    twitter:   
+    
+  -
+    id: rigel-discala
+    description: "Rigel is a software architect and engineer with almost 20 years of professional experience. He has led the design and implementation of several, award-winning digital transformation projects for EU and US legislatures, global information service providers, and financial institutions. He works for Red Hat as a senior consultant in the following areas: Cloud architecture, DevOps tools and ways of working, and API ecosystems for large enterprises. He also has co-authored a book on vector graphics and Inkscape, the popular FOSS illustration program. He learned programming on a Commodore Vic-20."
+    image: rigel-discala.jpg
+    first_name: Rigel
+    last_name: Di Scala
+    twitter: 
+
+  -
+    id: april-edwards
+    description: >
+    image: april-edwards.jpg
+    first_name: April 
+    last_name: Edwards
+    twitter: TheAprilEdwards
+    
+  -
+    id: giuseppe-lavagetto
+    description: >
+    image: giuseppe-lavagetto.jpg
+    first_name: Giuseppe 
+    last_name: Lavagetto
+    twitter:   
+
+  -
+    id: jacopo-nardiello
+    description: >
+    image: jacopo-nardiello.jpg
+    first_name: Jacopo 
+    last_name: Nardiello
+    twitter:      
+    
   -
     id: marco-pracucci
     description: >
@@ -72,24 +135,6 @@ list:
 #    last_name: Proscia
 #    twitter:     
 
-  -
-    id: giuseppe-lavagetto
-    description: >
-
-    image: giuseppe-lavagetto.jpg
-    first_name: Giuseppe 
-    last_name: Lavagetto
-    twitter:   
-
-  -
-    id: jacopo-nardiello
-    description: >
-
-    image: jacopo-nardiello.jpg
-    first_name: Jacopo 
-    last_name: Nardiello
-    twitter:   
-
 #  -
 #    id: emanuel-mazzilli
 #    description: >
@@ -106,14 +151,13 @@ list:
 #    last_name: Laurini
 #    twitter:   
 
-  -
-    id: michele-sacchetti
-    description: >
-
-    image: michele-sacchetti.jpg
-    first_name: Michele
-    last_name: Sacchetti
-    twitter:   
+#  -
+#    id: michele-sacchetti
+#    description: >
+#    image: michele-sacchetti.jpg
+#    first_name: Michele
+#    last_name: Sacchetti
+#    twitter:   
 
 #  -
 #    id: franco-torriani
@@ -131,31 +175,27 @@ list:
 #    last_name: Tozzi
 #    twitter:   
 
-  -
-    id: gabriella-castelli
-    description: >
-
-    image: gabriella-castelli.jpg
-    first_name: Gabriella 
-    last_name: Castelli
-    twitter:     
-
-  -
-    id: leonardo-didonato
-    description: >
-
-    image: leonardo-didonato.jpg
-    first_name: Leonardo
-    last_name: Di Donato
-    twitter:   
 #  -
 #    id: maurizio-caltabiano
 #    description: >
 #    image: maurizio-caltabiano.jpg
 #    first_name: Maurizio 
 #    last_name: Caltabiano
-#    twitter:   
+#    twitter:  
 
+
+  -
+    id: giacomo-tonucci
+    description: >
+        Giacomo joined IKS now Kirey Group in May 2017 after more than 10years of experience in IT Consulting in which he covered 
+         several different roles, from Software Developer to System Administrator. Giacomo developed a deep knowledge in Middleware 
+         and Web Architectures working in several System Integration projects for Banks and Insurance Companies. 
+         He has also a wide knowledge in Software Development, Change Management and System Administration.
+         In the last three years he was involved as a Senior Consultant and Solution Architect in several projects regarding containerization, log management and application monitoring
+    image: giacomo-tonucci.jpg
+    first_name: Giacomo
+    last_name: Tonucci
+    twitter:   
   -
     id: giulio-vian
     description: >
@@ -174,14 +214,6 @@ list:
 #    last_name: Molari
 #    twitter:   
 
-#  -
-#    id: floor-drees
-#    description: >
-#      Floor Drees is a Cloud Advocate Program Manager at Microsoft, self-taught (Ruby) developer, and champion supporter of open source by trade. Floor organizes a ton of tech events around app dev and software architecture.
-#    image: floor-drees.jpg
-#    first_name: Floor 
-#    last_name: Drees
-#    twitter: floordrees
 
 #  -
 #    id: andrea-tosatto
@@ -192,22 +224,7 @@ list:
 #    last_name: Tosatto
 #    twitter: _hilbert_
 
-  -
-    id: lars-bendix
-    description: >
-      Lars Bendix is a professor of software engineering at Lund University in Sweden and an administrator of the Scandinavian Network of Excellence in Software Configuration Management. He has spent most of his academic career doing research in Configuration Management together with various industrial partners, and has taught one of the few academic courses in Configuration Management to hundreds of students. For almost two decades he has also been heavily involved with his department’s agile activities.
-    image: lars-bendix.jpg
-    first_name: Lars 
-    last_name: Bendix
-    twitter:   
-  
-  -
-    id: matteo-castellani
-    description: 
-    image: matteo-castellani.jpg
-    first_name: Matteo 
-    last_name: Castellani
-    twitter:   
+
 
 #  -
 #    id: claudio-bartoli
@@ -226,18 +243,6 @@ list:
 #    last_name: Scuderetti
 #    twitter:   
     
-  -
-    id: giacomo-tonucci
-    description: >
-        Giacomo joined IKS now Kirey Group in May 2017 after more than 10years of experience in IT Consulting in which he covered 
-         several different roles, from Software Developer to System Administrator. Giacomo developed a deep knowledge in Middleware 
-         and Web Architectures working in several System Integration projects for Banks and Insurance Companies. 
-         He has also a wide knowledge in Software Development, Change Management and System Administration.
-         In the last three years he was involved as a Senior Consultant and Solution Architect in several projects regarding containerization, log management and application monitoring
-    image: giacomo-tonucci.jpg
-    first_name: Giacomo
-    last_name: Tonucci
-    twitter:   
 
   # -
   #   id: 
