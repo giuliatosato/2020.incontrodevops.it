@@ -66,16 +66,7 @@ list:
     first_name: Francesco 
     last_name: Degrassi
     twitter: 
- 
-  -
-    id: leonardo-didonato
-    description: >
-
-    image: leonardo-didonato.jpg
-    first_name: Leonardo
-    last_name: Di Donato
-    twitter:   
-    
+     
   -
     id: rigel-discala
     description: "Rigel is a software architect and engineer with almost 20 years of professional experience. He has led the design and implementation of several, award-winning digital transformation projects for EU and US legislatures, global information service providers, and financial institutions. He works for Red Hat as a senior consultant in the following areas: Cloud architecture, DevOps tools and ways of working, and API ecosystems for large enterprises. He also has co-authored a book on vector graphics and Inkscape, the popular FOSS illustration program. He learned programming on a Commodore Vic-20."

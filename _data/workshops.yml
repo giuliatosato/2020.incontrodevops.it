@@ -2,7 +2,7 @@ list:
   -
     slug: progettare-evolvere-cloud-aws
     title: Progettare e sviluppare applicazioni Serverless con AWS
-    when: Giovedì 15 e Venerdì 16 Ottobre 2020 
+    when: Giovedì 15 e Venerdì 16 Ottobre 2020 (4+4 ore, 9:30-13:30)
     where: online
     map: 
     ticket: /tickets.html
@@ -76,7 +76,7 @@ list:
   -
     slug: corso-kubernetes
     title: Gestire ambienti di produzione con Kubernetes
-    when: Lunedì 12 e Mercoledì 14 Ottobre 2020 (4+4 ore) 
+    when: Lunedì 12 e Mercoledì 14 Ottobre 2020 (4+4 ore, 9:00-13:00)
     where: Aula virtuale 
     map: 
     ticket: /tickets.html

@@ -107,17 +107,7 @@
     potential solutions.  Furthermore we outline a pragmatic adoption
     framework to guide the technology choices in terms of your specific
     domain, goals and constraints.
-    
--
-  speaker_id: leonardo-didonato
-  title: Cloud Native eBPF Instrumentation
-  extract: >
-    In this talk we are going to see how in Cloud Native environments we have
-    the common issue of having tools to instrument and comprehend the
-    application behaviour at kernel level. To try to solve this problem I'll
-    try to illustrate my opinions on how I used eBPF and eBPF based tools that
-    are both the kernel and Kubernetes aware. In other words, Cloud Native.    
-    
+
 -
   speaker_id: rigel-discala
   title: "Write your own Kubernetes Operator using Ansible"
