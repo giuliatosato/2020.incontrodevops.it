@@ -11,10 +11,15 @@ list:
       link: https://www.sparkfabrik.com/it/
     teacher:
       -
-        name: 
-        picture: 
-        bio: 
+        name:  Marcello Testi 
+        picture: marcello-testi.jpg
+        bio: Solution Architect, Scrum Master / Agile coach. Ho realizzato applicazioni web a cominciare dalla fine del secolo scorso. Attualmente alterno ruoli di solution architect (orientato a cloud native) e di agile coach/scrum master
         link: https://www.sparkfabrik.com/it/
+      -
+        name: Francesco Benigno
+        picture: francesco.benigno.jpg
+        bio: Software Developer. Sviluppatore full stack da circa 6 anni, da poco sono anche un AWS certified developer e mi occupo di sviluppo e manutenzione di progetti cloud native da quando sono entrato in Sparkfabrik ormai quasi 4 anni fa
+        link: https://www.sparkfabrik.com/it/        
     intro: |
       CNCF definisce Serverless come un nuovo paradigma di sviluppo e deployment di applicazioni di nuova generazione, capaci di essere indipendenti rispetto all'infrastruttura che le ospita, rendendo di fatto più agile ed efficiente il processo di sviluppo sino alla produzione. Questo workshop è progettato per entrare nel dettaglio di cosa è Serverless sia da punto di vista applicativo che infrastrutturale, fornendo le basi per approcciare al meglio lo sviluppo di nuove generazioni di applicazioni oppure di modernizzare quelle esistenti
     program: |
