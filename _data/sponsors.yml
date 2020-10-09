@@ -42,9 +42,6 @@ diamond:
     -
       url: https://sighup.io/?utm_source=idi2020
       image: sighup.svg  
-    -
-      url: https://www.microsoft.com/?utm_source=idi2020
-      image: microsoft.svg
 
 platinum:
   price: € 3,000
@@ -111,6 +108,9 @@ silver:
     -
       url: https://labs.madisoft.it/devops-engineer/?utm_source=idi2020
       image: madisoft.svg
+    -
+      url: https://www.microsoft.com/?utm_source=idi2020
+      image: microsoft.svg
 #    -
 #      url: http://www.ynap.com/?utm_source=idi2020
 #      image: ynap.png
