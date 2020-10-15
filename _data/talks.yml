@@ -1,4 +1,13 @@
 -
+  speaker_id: angel-barrerasanchez 
+  title: "Kubernetes with a single master"
+  extract: >
+      "Kubernetes is one of the most famous and used open-source projects worldwide and in all types of projects. 
+      The recommendations while deploying it are really specific: Create it with three or five master nodes to stay in HA (High Availability). 
+      Not all have to be configured in high availability. We will review considerations, recommendations, and we will help you to make the right decision when 
+      creating these trending infrastructures. We will experiment with destroying the master node of a single master Kubernetes cluster having a running application on it."
+
+-
   speaker_id: lars-bendix
   title: What SCM is useful and necessary on DevOps projects?
   extract: >
@@ -136,12 +145,6 @@
     experience managing difficult transitions/rollouts for Wikipedia, I will
     underline what and how is worth testing in production, and some
     recommended patterns for doing so, both at large and small scale.
-
--
-  speaker_id: jacopo-nardiello
-  title: "TBD"
-  extract: >    
-
 -
   speaker_id: marco-pracucci
   title: Scaling Prometheus with Cortex, one time series at a time
