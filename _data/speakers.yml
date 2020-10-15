@@ -4,6 +4,13 @@ call_for_paper_url: "mailto:info@incontrodevops.it"
 call_for_paper: false
 list:
 
+  -
+    id: angel-barrerasanchez
+    description: >
+    image: angel-barrerasanchez.jpg
+    first_name: Ángel 
+    last_name: Barrera Sánchez
+    twitter: AngelBarrera92  
 
   -
     id: lars-bendix
@@ -89,15 +96,7 @@ list:
     image: giuseppe-lavagetto.jpg
     first_name: Giuseppe 
     last_name: Lavagetto
-    twitter:   
-
-  -
-    id: jacopo-nardiello
-    description: >
-    image: jacopo-nardiello.jpg
-    first_name: Jacopo 
-    last_name: Nardiello
-    twitter:      
+    twitter:       
     
   -
     id: marco-pracucci
